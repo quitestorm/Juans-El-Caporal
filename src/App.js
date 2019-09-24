@@ -1,25 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Main from './components/main'
+import { Header, Navigation,Drawer,Content} from 'react-mdl'
+import {  Link } from "react-router-dom";
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* Uses a transparent header that draws on top of the layout's background */}
+     <Header className='header'>
+
+        <  Link className='link2'  to="/"><h4>JUANS EL CAPORAL</h4></Link>
+            <Navigation>
+            
+                <Link className='link' to="/about">About</Link >
+                <Link  className='link'  to="/mainMenu">Menu</Link >
+                <Link  className='link'  to="/contact">Contact</Link >
+               
+            </Navigation>
+        <Drawer title="Title">
+            <Navigation>
+            <  Link  to="/">"JUANS EL CAPORAL"> </  Link>
+            <Link  to="/about">About</Link >
+           
+                <Link  to="/contact">Contact</Link >
+            </Navigation>
+        </Drawer>
+        </Header>
+
+
+<Main />
+
+
     </div>
+
+
   );
 }
 
