@@ -5,7 +5,7 @@ import JUANS from './JUANS.png'
 import juanspho from './juanspho.png'
 import juansaddr from './juansaddr.png'
 
-
+import Grids from './Grid'
 
 class Contact extends Component{
     render() {
@@ -24,8 +24,12 @@ class Contact extends Component{
 
 
         <Grid className="demo-grid-3">
-        <Cell col={12} id='col3'><Map /></Cell>
+        <Cell col={12} id='col3'></Cell>
     </Grid>
+
+
+
+
 
 
             </div>

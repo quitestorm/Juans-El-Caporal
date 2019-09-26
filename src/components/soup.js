@@ -82,7 +82,7 @@ class Soup extends Component{
   <Row>
     <Col sm={3}>
      <colHeader>name</colHeader>
-    na
+    
     </Col>
     <Col sm={7}>
     <colHeader>Description</colHeader>

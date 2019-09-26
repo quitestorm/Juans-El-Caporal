@@ -45,7 +45,7 @@ class Landing extends Component{
 
         </Cell>
     </Grid>
-<Grids />
+
 
             </div>
         )
