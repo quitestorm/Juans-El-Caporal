@@ -2,6 +2,20 @@ import React, {Component} from 'react';
 import {TableHeader, DataTable} from 'react-mdl'
 import Carousels from './carousel'
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 class Combos extends Component{
     render() {
         return(
@@ -16,7 +30,7 @@ class Combos extends Component{
      
 
         
-        {name: 'Super Nachos', description:'Corn tortilia chips with choice of meat(chicken, beef, or shreded beef), beans,melted cheese, chopped tomatoes, onion, guaclomole`, and sour cream', price:  6.95},
+        {name: ' Nachos', description:' these are pretty good choice of meat(chicken, beef, or shreded beef), beans,melted cheese, chopped tomatoes, onion, guaclomole`, and sour cream', price:  6.95},
         {name: 'Chicken Taquitos', description: 'Corn tortilia stuffed with chicken and cheese ', price: 6.95},
         {name: 'Mexican Quesadilo', description: 'Two soft flour tortilias stuffed with cheddar and monteray jack cheese, green onions, tomatoes, and your choiceoc chicken, beef, or shrdded beef', price: 6.95},
         {name: 'Vegetarian Nacho', description:'good', price: 2.90},
