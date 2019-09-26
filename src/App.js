@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 import Main from './components/main'
-import { Header, Navigation,Drawer,Content} from 'react-mdl'
+import { Header, Navigation,Drawer} from 'react-mdl'
 import {  Link } from "react-router-dom";
 
 

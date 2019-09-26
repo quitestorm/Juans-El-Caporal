@@ -2,6 +2,21 @@ import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl'
 import JUANS from './JUANS.png'
 import juanspho from './juanspho.png'
+
+
+import Grids from './Grid'
+
+
+
+
+
+
+
+
+
+
+
+
 class Landing extends Component{
     render() {
         return(
@@ -30,7 +45,7 @@ class Landing extends Component{
 
         </Cell>
     </Grid>
-
+<Grids />
 
             </div>
         )
