@@ -4,7 +4,7 @@ import './App.css';
 import Main from './components/main'
 import { Header, Navigation,Drawer} from 'react-mdl'
 import {  Link } from "react-router-dom";
-
+import {Nav, Navbar, NavDropdown, Form, FormControl, Button} from 'react-bootstrap'
 
 
 
@@ -12,11 +12,11 @@ import {  Link } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"className='responsive' >
      {/* Uses a transparent header that draws on top of the layout's background */}
-     <Header className='header'>
+     {/* <Header className='header'>
 
-        <  Link className='link2'  to="/"><h4>JUANS EL CAPORAL</h4></Link>
+        <  Link className='responsive'  className='link2'  to="/"><h4>JUANS EL CAPORAL</h4></Link>
             <Navigation>
             
                 <Link className='link' to="/about">About</Link >
@@ -32,7 +32,36 @@ function App() {
                 <Link  to="/contact">Contact</Link >
             </Navigation>
         </Drawer>
-        </Header>
+        </Header> */}
+
+
+
+<Navbar bg="warning" expand="lg">
+  <Navbar.Brand> <  Link className='responsive'  className='link2'  to="/"><h4>JUANS EL CAPORAL</h4></Link></Navbar.Brand>
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link > <Link className='link' to="/about">About</Link ></Nav.Link>
+    
+      <NavDropdown title={<Link  className='link'  to="/mainMenu">Menu</Link >} id="basic-nav-dropdown" >
+        <NavDropdown.Item href="/appa">Appatizers</NavDropdown.Item>
+        <NavDropdown.Item href="/salad">Salads</NavDropdown.Item>
+        <NavDropdown.Item href="/soup">Soup</NavDropdown.Item>
+        <NavDropdown.Divider />
+        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      </NavDropdown>
+      <Nav.Link> <Link  className='link'  to="/contact">Contact</Link ></Nav.Link>
+
+    </Nav>
+  
+  </Navbar.Collapse>
+</Navbar>
+
+
+
+
+
+
 
 
 <Main />

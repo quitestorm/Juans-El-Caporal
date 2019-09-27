@@ -7,6 +7,17 @@ border:3em solid purple;
 font-family: 'Lobster', cursive;
 }
 
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
 .header{
   background-color: rgb(10, 252, 171)!important;
   font-family: 'Lobster', cursive;
@@ -19,6 +30,7 @@ font-family: 'Lobster', cursive;
 .link{
   background-color: rgb(10, 252, 171)!important;
   color:rgb(8, 141, 79)!important;
+  height:.5em;
 }
 
 .link2{

@@ -22,7 +22,7 @@ class Landing extends Component{
         return(
             <div>
 
-<img src={JUANS}></img><img src={ juanspho}></img>
+<img className='responsive' src={JUANS}></img><img src={ juanspho}></img>
 
 <Grid className="demo-grid-1">
         <Cell col={12} id='col1'></Cell>
