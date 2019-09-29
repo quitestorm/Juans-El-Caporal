@@ -1,12 +1,25 @@
-body{
-  background: #1E9600;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to bottom, #FF0000, #FFF200, #1E9600);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to bottom, #FF0000, #FFF200, #1E9600); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-color: rgb(6, 253, 6)!important;;
-border:3em solid purple;
-font-family: 'Lobster', cursive;
+#root{
+  padding:20px;
 }
 
+body {
+  background: #1e9600; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to bottom,
+    #ff0000,
+    #fff200,
+    #1e9600
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ff0000,
+    #fff200,
+    #1e9600
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(6, 253, 6) !important;
+  border: 3em solid purple;
+  font-family: "Lobster", cursive;
+}
 
 .responsive {
   max-width: 100%;
@@ -14,146 +27,141 @@ font-family: 'Lobster', cursive;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 
-
-.header{
-  background-color: rgb(10, 252, 171)!important;
-  font-family: 'Lobster', cursive;
+.mdl-data-table {
+  white-space: normal !important;
 }
 
-.App{
-  font-family: 'Lobster', cursive;
+.header {
+  background-color: rgb(10, 252, 171) !important;
+  font-family: "Lobster", cursive;
 }
 
-.link{
-  background-color: rgb(10, 252, 171)!important;
-  color:rgb(8, 141, 79)!important;
-  height:.5em;
+.App {
+  font-family: "Lobster", cursive;
 }
 
-.link2{
-  background-color: rgb(10, 252, 171)!important;
-  color:red!important;
-  font-family: 'Lobster', cursive;
+.link {
+  background-color: rgb(10, 252, 171) !important;
+  color: rgb(8, 141, 79) !important;
+  height: 0.5em;
 }
 
+.link2 {
+  background-color: rgb(10, 252, 171) !important;
+  color: red !important;
+  font-family: "Lobster", cursive;
+}
 
-.Juans{
+.Juans {
   background-color: chartreuse;
-  font-family: 'Lobster', cursive;
-  border: 1em  solid rgb(243, 247, 6)
+  font-family: "Lobster", cursive;
+  border: 1em solid rgb(243, 247, 6);
 }
 
-.apptize{
+.apptize {
   color: blue;
 }
 
-.apps{
-  height: 2.5em;
-  width: 5em;
-  position: relative;
-  margin-top: -1em;
-  margin-left: 4em;
-  border-radius: 20%;
+
+
+.data {
+  background-color: aqua;
+}
+menu.focus {
+  background-color: #fff200;
 }
 
-.data{
-   background-color: aqua
-}
-menu.focus{
-  background-color: #FFF200;
-}
-
-
-.demo-grid-3{
- 
-  font-family: 'Lobster', cursive!important;
-  color:rgb(253, 6, 101);
-  
+.demo-grid-3 {
+  font-family: "Lobster", cursive !important;
+  color: rgb(253, 6, 101);
+  border-radius: 50%;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Lobster', cursive!important;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lobster", cursive !important;
 }
 
-
-.grid-3{
- 
-  font-family: 'Lobster', cursive!important;
-  color:rgb(253, 6, 179);
+.grid-3 {
+  font-family: "Lobster", cursive !important;
+  color: rgb(253, 6, 179);
   background-color: rgb(140, 245, 3);
 }
 
-.tpgridmain{
-  border: 2rem solid lightgreen
+.tpgridmain {
+  border: 2rem solid lightgreen;
 }
 
-#col1{
+#col1 {
   height: 24em;
-  
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5K31gVVfaVS0wjtz_ppAMVfV6HfYyA-YxkvBsaNU9RVVgRDA');
-background-repeat: no-repeat;
-background-size: cover;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5K31gVVfaVS0wjtz_ppAMVfV6HfYyA-YxkvBsaNU9RVVgRDA");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-#col11{
+#col11 {
   height: 24em;
-  
-  background-image: url('https://s3-media1.fl.yelpcdn.com/bphoto/LIrAm2KwdPxjIXIA6gJxig/o.jpg');
-background-repeat: no-repeat;
-background-size: cover;
+
+  background-image: url("https://s3-media1.fl.yelpcdn.com/bphoto/LIrAm2KwdPxjIXIA6gJxig/o.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-#col3{
+#col3 {
   height: 16em;
-color: #FF0000;
+  color: #ff0000;
   background-color: rgb(250, 246, 8);
-font-style: italic ;
+  font-style: italic;
 }
 
+.apps {
+  height: 2rem!important;
+  width: 3rem!important;
+  position: relative;
+  margin-top: -1em;
+ 
+  border-radius: 50% !important;
+}
 
-.col4{
+/* .col4 {
   height: 6em;
-font-size: 2em;
+  font-size: 2em;
   background-color: rgb(211, 9, 52);
-color:yellow;
-
+  color: yellow;
 }
 
-
-.col5{
+.col5 {
   height: 6em;
   font-size: 2em;
   background-color: yellow;
-color:green;
+  color: green;
 }
 
-
-.col6{
+.col6 {
   height: 6em;
   font-size: 2em;
   background-color: rgb(8, 247, 8);
-color: red;
-}
-
+  color: red;
+} */
 
 #map {
   width: 100%;
-  height:6em;
+  height: 6em;
   background-color: rgb(122, 43, 43);
 }
 
-
-.topOne{
-  background-color: #1E9600;
+.topOne {
+  background-color: #1e9600;
   height: auto;
   width: auto;
 }
-
 
 .container {
   position: relative;
@@ -166,7 +174,97 @@ color: red;
   bottom: 0; /* At the bottom. Use top:0 to append it to the top */
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f7df08; /* Grey text */
+  color: #f5e31d; /* Grey text */
   width: 100%; /* Full width */
   padding: 20px; /* Some padding */
+}
+.carousel{
+  height: 10px!important;
+  
+  color: #ff0000;
+  margin-bottom: 20em!important;
+}
+.caption{
+  color: #ff0000;
+}
+.carousel-control-prev,
+.carousel-control-next{
+  position: absolute;
+  color:black;
+}
+
+
+.container {
+  background-color: cyan;
+  height: 5em;
+}
+
+.imgs{
+  height: 25em!important;
+width:20em!important;
+
+}
+
+@media only screen and (max-width: 350px) {
+  h4 {
+    color: cyan;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  img {
+    width: 8rem !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  h3 {
+    font-size: 2rem !important;
+  }
+}
+
+@media only screen and (max-width: 284px) {
+  img {
+    max-width: 8em !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  h4 {
+    color: cyan;
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  img {
+    width: 12rem !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  h4{
+    color:cyan!important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  img {
+    max-width: 8em !important;
+  }
+}
+
+
+
+@media only screen and (max-width: 350px) {
+  .DataTable{
+    max-width: 8!important;
+    color: aqua;
+  }
+}
+.DataTable{
+  max-width: 8!important;
+  color: aqua;
+  font-family: "Lobster", cursive !important;
 }

@@ -9,7 +9,7 @@ class About extends Component {
         return(
             <div>
 
-<img src={JUANS} alt='juans'></img>
+<img className='rersponsive' src={JUANS} alt='juans'></img>
 
 
 <Card shadow={0} style={{width: 'auto', margin: '10'}}>

@@ -58,7 +58,7 @@ class Soup extends Component{
 
 
 
-<DataTable style={{backgroundColor:'lightgreen', fontSize:14.5,  color: 'red'}}
+<DataTable className='responsive' style={{backgroundColor:'lightgreen', fontSize:20,  color: 'red'}}
     shadow={0}
     rows={[
      
@@ -77,23 +77,10 @@ class Soup extends Component{
     <TableHeader name="description" tooltip="The amazing material description">Description</TableHeader>
     <TableHeader numeric name="price" cellFormatter={(price) => `\$${price.toFixed(2)}`} tooltip="Price pet unit">Price</TableHeader>
 </DataTable>
-<div className='grid'>
-<Container>
-  <Row>
-    <Col sm={3}>
-     <colHeader>name</colHeader>
-    
-    </Col>
-    <Col sm={7}>
-    <colHeader>Description</colHeader>
-    </Col>
-    <Col sm={2}>
-    <colHeader>Price</colHeader>
-    </Col>
-  </Row>
-</Container>
 
-</div>
+
+
+
             </div>
         )
     }

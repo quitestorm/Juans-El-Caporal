@@ -67,7 +67,7 @@ class Ameri extends Component{
 
 
 
-<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'red'}}
+<DataTable style={{backgroundColor:'lightgreen',  fontSize:14, color: 'red'}}
     shadow={0}
     rows={[
      
@@ -88,6 +88,8 @@ class Ameri extends Component{
 </DataTable>
 
 
+
+<Menu />
             </div>
         )
     }

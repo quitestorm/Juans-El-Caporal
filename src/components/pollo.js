@@ -10,7 +10,7 @@ class Pollo extends Component{
 
 <Carousels />
 
-<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'red'}}
+<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'red', whiteSpace:' normal !important'}}
     shadow={0}
     rows={[
      
@@ -25,7 +25,7 @@ class Pollo extends Component{
     ]}
 >
 
-    <TableHeader name="name" tooltip="The amazing material name">Name</TableHeader>
+    <TableHeader  name="name" tooltip="The amazing material name">Name</TableHeader>
     <TableHeader name="description" tooltip="The amazing material description">Description</TableHeader>
     <TableHeader numeric name="price" cellFormatter={(price) => `\$${price.toFixed(2)}`} tooltip="Price pet unit">Price</TableHeader>
 </DataTable>

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Main from './components/main'
 import { Header, Navigation,Drawer} from 'react-mdl'
@@ -36,21 +36,21 @@ function App() {
 
 
 
-<Navbar bg="warning" expand="lg">
-  <Navbar.Brand> <  Link className='responsive'  className='link2'  to="/"><h4>JUANS EL CAPORAL</h4></Link></Navbar.Brand>
+<Navbar className='responsive' bg="warning" expand="lg">
+  <Navbar.Brand> <  Link className='responsive'  className='link2'  to="/"><h4 className='responsive'>JUANS EL CAPORAL</h4></Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link > <Link className='link' to="/about">About</Link ></Nav.Link>
-    
-      <NavDropdown title={<Link  className='link'  to="/mainMenu">Menu</Link >} id="basic-nav-dropdown" >
+      <Nav.Link > <Link className='link' to="/mainMenu">Menu</Link ></Nav.Link>
+      {/* <NavDropdown title={<Link  className='link'  to="/mainMenu">Menu</Link >} id="basic-nav-dropdown" >
         <NavDropdown.Item href="/appa">Appatizers</NavDropdown.Item>
         <NavDropdown.Item href="/salad">Salads</NavDropdown.Item>
         <NavDropdown.Item href="/soup">Soup</NavDropdown.Item>
         <NavDropdown.Divider />
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-      </NavDropdown>
-      <Nav.Link> <Link  className='link'  to="/contact">Contact</Link ></Nav.Link>
+      </NavDropdown> */}
+      <Nav.Link > <Link className='link' to="/contact">Contact</Link ></Nav.Link>
 
     </Nav>
   
