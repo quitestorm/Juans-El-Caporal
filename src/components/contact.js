@@ -13,18 +13,18 @@ class Contact extends Component{
             <div>
 <h1>Contact Us</h1>
 
-<img src={JUANS}></img><img src={juansaddr}></img>
+<img className='responsive' src={JUANS}></img><img className='responsive'src={juansaddr}></img>
 
-<img src={juanspho}></img>
+<img className='responsive' src={juanspho}></img>
 
-<Grid className="demo-grid-1">
+<Grid className='responsive'className="demo-grid-1">
         <Cell col={12} id='col11'></Cell>
 </Grid>
      
 
 
         <Grid className="demo-grid-3">
-        <Cell col={12} id='col3'></Cell>
+        <Cell col={12} id='col3'> <Map /></Cell>
     </Grid>
 
 

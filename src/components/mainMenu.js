@@ -23,7 +23,7 @@ import Seafood from './seafood';
 import Sides from './sides';
 import Soup from './soup';
 import Toast from './toast';
-
+import './mainMenu.css';
 
 
 
@@ -56,15 +56,15 @@ class MainMenu extends Component{
 
 
 <Cell col={4}  className='rersponsive'  className='col4'>
-    <h3 className='rersponsive' >APPATIZERS</h3>
+    <h3 className='rersponsive' >APERITIVOS (appatizers) </h3>
     <a href="/appa">
-    <img  className='apps' className='rersponsive'   src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltGURNTlksoCTts2ucBG_GEMP49qdG8nZ0yBfr3WqWGhBYzrh'/>
+    <img  className='apps' className='rersponsive2'   src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRltGURNTlksoCTts2ucBG_GEMP49qdG8nZ0yBfr3WqWGhBYzrh'/>
     </a>
 </Cell>
 
 
 <Cell col={4} className='rersponsive'  className='col5'>
-<h3 className='rersponsive' >ENSALADAS</h3>
+<h3 className='rersponsive' >ENSALADS<br></br> (SALADS)</h3>
 <a href="/salad">
 <img className='apps' className='rersponsive'  src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ03daBgD5nXG8eHM2rteKHMOpWbZ6JWh9XOILTCLQ4zXvRpsP'alt='SALAD'></img>
 

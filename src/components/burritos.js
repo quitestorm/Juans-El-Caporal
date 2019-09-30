@@ -10,7 +10,7 @@ class Burritos extends Component{
 
 <Carousels />
 
-<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'red'}}
+<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'yellow'}}
     shadow={0}
     rows={[
      

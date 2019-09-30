@@ -15,13 +15,16 @@ class MapContainer extends Component{
               <div className='MapContainer'>
      <Map className='Map'
           google={this.props.google}
-          zoom={5}
+          zoom={4}
           style={mapStyles}
-          initialZoom={{ lat: 42.516780, lng: -122.811780}}
+          centralFocus={{ lat: 42.4726, lng: -122.8028}}
+          onFocus={{ lat: 42.516780, lng: -122.811780}}
         >
           <Marker  position={{ lat: 42.516780, lng: -122.811780}} />
         </Map>
             </div>
+
+            
             </div>
         )
     }

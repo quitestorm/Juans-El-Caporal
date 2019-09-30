@@ -1,0 +1,35 @@
+/* .imgd{
+    border-radius: 50%!important;
+    height: 6em!important;
+    width: 6em!important;
+    border: .5rem solid magenta;
+  } */
+
+  .ap {
+    border-radius: 50%!important;
+    height: 6em !important;
+    width: 2em !important;
+    border: .5rem solid magenta;
+  }
+
+
+.responsive2 {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  @media only screen and (max-width: 284px) {
+    img {
+      max-width: 8em !important;
+    }
+  }
+
+ 
+  .tpgridmain {
+    border: 2rem solid lightgreen;
+  }
+  
