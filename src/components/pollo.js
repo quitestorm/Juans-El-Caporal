@@ -10,7 +10,7 @@ class Pollo extends Component{
 
 <Carousels />
 
-<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'red', whiteSpace:' normal !important'}}
+<DataTable style={{backgroundColor:'lightgreen',  fontSize:20, color: 'red', whiteSpace:' normal !important'}}
     shadow={0}
     rows={[
      

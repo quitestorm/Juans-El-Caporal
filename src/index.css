@@ -10,61 +10,35 @@ body {
     color: cyan;
     font-size: 1rem;
   }
-}
+} 
 
 @media only screen and (max-width: 350px) {
   img {
-    width: 8rem !important;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  h3 {
-    font-size: 5rem !important;
+    width: 8!important;
   }
 }
 
 
-
-@media only screen and (max-width: 960px) {
-  h4 {
-    color: cyan;
-    font-size: 2rem;
-  }
-}
 
 @media only screen and (max-width: 260px) {
   img {
-    width: 10em !important;
+    width: 6!important;
   }
 }
 
-@media only screen and (max-width: 960px) {
-  h4{
-    color:cyan!important;
-  }
-}
 
-@media only screen and (max-width: 760px) {
+
+@media only screen and (max-width: 530px) {
   img {
-    max-width: 18em !important;
+    max-width: 100!important;
+    display: block;
     float: none;
   }
 }
 
 
 
-@media only screen and (max-width: 350px) {
-  .DataTable{
-    max-width: 8!important;
-    color: aqua;
-  }
-}
-.DataTable{
-  max-width: 8!important;
-  color: aqua;
-  font-family: "Lobster", cursive !important;
-}
+
 
 
 @media only screen and (max-width: 460px) {
@@ -73,14 +47,35 @@ body {
   }
 }
 
-@media only screen and (max-width: 460px) {
-  p {
-    font-size:2em!important
-  }
-}
+
 
 @media only screen and (nax-width: 700px) {
  img{
-   display: block
+   display: block;
+   float: none;
+   width:10;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  h1,p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: 1.5rem !important;
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  h1,p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: 1rem !important;
+   color: cyan;
   }
 }

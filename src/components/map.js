@@ -5,7 +5,7 @@ import './map.css'
 class MapContainer extends Component{
     render() {
         const mapStyles = {
-            width: '91%',
+            width: '85%',
             height: '50%',
           
           }
@@ -15,10 +15,12 @@ class MapContainer extends Component{
               <div className='MapContainer'>
      <Map className='Map'
           google={this.props.google}
-          zoom={4}
+          zoom={5}
           style={mapStyles}
-          centralFocus={{ lat: 42.4726, lng: -122.8028}}
-          onFocus={{ lat: 42.516780, lng: -122.811780}}
+
+          
+          center={{ lat: 42.4726, lng: -122.8028}}
+         
         >
           <Marker  position={{ lat: 42.516780, lng: -122.811780}} />
         </Map>

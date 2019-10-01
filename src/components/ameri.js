@@ -67,7 +67,7 @@ class Ameri extends Component{
 
 
 
-<DataTable style={{backgroundColor:'lightgreen',  fontSize:14, color: 'red'}}
+<DataTable style={{backgroundColor:'lightgreen',  fontSize:20, color: 'red'}}
     shadow={0}
     rows={[
      
