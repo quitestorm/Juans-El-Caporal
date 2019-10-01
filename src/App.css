@@ -1,6 +1,4 @@
-#root{
-  padding:20px;
-}
+
 
 .responsive {
   max-width: 100%;
@@ -92,62 +90,3 @@ h6 {
 
 
 
-@media only screen and (max-width: 350px) {
-  h4 {
-    color: cyan;
-    font-size: 1rem;
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  img {
-    width: 8rem !important;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  h3 {
-    font-size: 5rem !important;
-  }
-}
-
-
-
-@media only screen and (max-width: 960px) {
-  h4 {
-    color: cyan;
-    font-size: 2rem;
-  }
-}
-
-@media only screen and (max-width: 960px) {
-  img {
-    width: 2rem !important;
-  }
-}
-
-@media only screen and (max-width: 960px) {
-  h4{
-    color:cyan!important;
-  }
-}
-
-@media only screen and (max-width: 960px) {
-  img {
-    max-width: 8em !important;
-  }
-}
-
-
-
-@media only screen and (max-width: 350px) {
-  .DataTable{
-    max-width: 8!important;
-    color: aqua;
-  }
-}
-.DataTable{
-  max-width: 8!important;
-  color: aqua;
-  font-family: "Lobster", cursive !important;
-}

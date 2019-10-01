@@ -26,6 +26,10 @@ body {
 
 .demo-grid-3 {
   font-family: "Lobster", cursive !important;
-  color: rgb(253, 6, 101);
+  color: rgb(56, 255, 6);
   border-radius: 50%;
+}
+
+.para1{
+  font-size: 13em!important;
 }
