@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {TableHeader, DataTable} from 'react-mdl'
-import Carousels from './carousel'
+
 
 class Dess extends Component{
     render() {
@@ -8,7 +8,7 @@ class Dess extends Component{
             <div>
 <h1>DESSERTS</h1>
 
-<Carousels />
+
 
 <DataTable style={{backgroundColor:'lightgreen',  fontSize:20, color: 'red'}}
     shadow={0}

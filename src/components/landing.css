@@ -1,23 +1,5 @@
 
-body {
-  background: #1e9600; /* fallback for old browsers */
-  background: -webkit-linear-gradient(
-    to bottom,
-    #ff0000,
-    #fff200,
-    #1e9600
-  ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to bottom,
-    #ff0000,
-    #fff200,
-    #1e9600
-  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: rgb(6, 253, 6) !important;
-  border: 3em solid purple;
-  font-family: "Lobster", cursive;
-  height: 150em;
-}
+
 .Juans {
   background-color: chartreuse;
   font-family: "Lobster", cursive;

@@ -1,0 +1,10 @@
+{
+  "defaultTestName": "NewTest",
+  "pageObjectFolder": "src/test/java/uitest/pageobjects",
+  "projectName": "rest",
+  "rootPackage": "uitest",
+  "targetFramework": "Selenium",
+  "targetLanguage": "java",
+  "testFolder": "src/test/java/uitest/tests",
+  "version": "1.6.0"
+}

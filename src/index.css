@@ -7,7 +7,7 @@ body {
 
 @media only screen and (max-width: 350px) {
   h4 {
-    color: cyan;
+    color: rgb(255, 0, 149);
     font-size: 1rem;
   }
 } 
@@ -49,7 +49,7 @@ body {
 
 
 
-@media only screen and (nax-width: 700px) {
+@media only screen and (max-width: 700px) {
  img{
    display: block;
    float: none;
@@ -76,6 +76,18 @@ h4,
 h5,
 h6 {
    font-size: 1rem !important;
-   color: cyan;
+ 
   }
 }
+
+
+@media only screen and (max-width: 430px) {
+  .mdl-data-table{
+    
+    width:10!important;
+   }
+ }
+
+ .caption{
+   color: cyan;
+ }

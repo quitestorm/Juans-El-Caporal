@@ -20,4 +20,6 @@
     border: 2rem solid lightgreen;
   }
   
- 
+ .apps{
+   border: 1rem solid magenta!important;
+ }
