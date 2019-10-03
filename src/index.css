@@ -30,7 +30,7 @@ body {
 
 @media only screen and (max-width: 530px) {
   img {
-    max-width: 100!important;
+    max-width: 8!important;
     display: block;
     float: none;
   }
@@ -51,6 +51,7 @@ body {
 
 @media only screen and (max-width: 700px) {
  img{
+  max-width: 10!important;
    display: block;
    float: none;
    width:10;
@@ -84,10 +85,19 @@ h6 {
 @media only screen and (max-width: 430px) {
   .mdl-data-table{
     
-    width:10!important;
+    font-size: 1em!important;
+    display: inline-block !important;
    }
  }
 
  .caption{
    color: cyan;
+ }
+
+ 
+@media only screen and (max-width: 336px) {
+  .mdl-data-table{
+    
+    font-size: .5em!important;
+   }
  }

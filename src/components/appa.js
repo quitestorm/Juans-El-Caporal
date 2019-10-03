@@ -39,7 +39,7 @@ class Appa extends Component{
     />
     <Carousel.Caption>
       <h3>Nachos</h3>
-      <p>Corn tortilla chips with a choice of meat, beans,melted cheese, chopped tomatoes, onion, guacamole, and sour cream.</p>
+      <p></p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -51,7 +51,7 @@ class Appa extends Component{
 
     <Carousel.Caption style={{color:'green'}}>
       <h3>Chicken Taquitos</h3>
-      <p>Corn tortilia stuffed with chicken and cheese.</p>
+      <p></p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -63,7 +63,7 @@ class Appa extends Component{
 
     <Carousel.Caption>
       <h3>Mexican Quesadilo</h3>
-      <p>Two soft flour tortilias stuffed with cheddar and monteray jack cheese, green onions, tomatoes, and your choice of chicken, beef, or shrdded beef</p>
+      <p></p>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -75,7 +75,7 @@ class Appa extends Component{
     />
     <Carousel.Caption>
       <h3>Vegetarian Nacho</h3>
-      <p>Corn tortilla chips covered with pinto beans, cheese, tomatoes, onions, sour cream, and guacamole</p>
+      <p></p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -87,7 +87,7 @@ class Appa extends Component{
 
     <Carousel.Caption>
       <h3>Jalapeno Poppers</h3>
-      <p>Crispy flour tortilla with choice of meat, refried beans, cheeseand garnished with tomatoes, onions, guacamole, and sour cream..</p>
+      <p> .</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -99,7 +99,7 @@ class Appa extends Component{
 
     <Carousel.Caption>
       <h3>Fajita Quesadilla</h3>
-      <p>Flour tortillas with a choice of chicken or steak, ala fajita-style fried green peppers and onions. Garnished with tomatoes, onions, guacamole, and sour cream..</p>
+      <p> </p>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -112,7 +112,7 @@ class Appa extends Component{
 
     <Carousel.Caption>
       <h3>Mexican Pizza</h3>
-      <p>Crispy flour tortilla with choice of meat, refried beans, cheeseand garnished with tomatoes, onions, guacamole, and sour cream.</p>
+      <p></p>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -125,7 +125,7 @@ class Appa extends Component{
 
     <Carousel.Caption>
       <h3>El Caporal Sampler</h3>
-      <p>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers. Garnished with tomatoes, onions, sour cream and guacamole.</p>
+      <p> </p>
     </Carousel.Caption>
   </Carousel.Item>
 
