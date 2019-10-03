@@ -134,11 +134,12 @@ class Appa extends Component{
 
       </div>
 
+ 
+    
 
+    
 
-
-
-      <DataTable style={{backgroundColor:'lightgreen',  fontSize:20, color: 'red'}}
+      <DataTable style={{backgroundColor:'lightgreen',  fontSize:20, color: 'red', display:'flex', flexWrap:'wrap'}}
     shadow={0}
     rows={[
      
@@ -161,15 +162,14 @@ class Appa extends Component{
 </DataTable>
 
 
+</div>
 
 
 
 
 
 
-
-
-            </div>
+            
         )
     }
 }
