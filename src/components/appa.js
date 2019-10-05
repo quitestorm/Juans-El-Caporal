@@ -5,7 +5,7 @@ import {TableHeader, DataTable} from 'react-mdl'
 import Carousel from 'react-bootstrap/Carousel'
   import './carsouel.css';
 
-
+  import './appa.css'
 
  
 
@@ -24,7 +24,7 @@ class Appa extends Component{
 
             <div>
 
-
+{/* 
 <h1>APPATIZERS</h1>
 
 <div style={{height: 250, backgroundColor:'magenta', color:'yellow'}} className='respomsive' className='caradiv'>
@@ -139,7 +139,7 @@ class Appa extends Component{
 
     
 
-      <DataTable style={{backgroundColor:'lightgreen',  fontSize:20, color: 'red', display:'flex', flexWrap:'wrap'}}
+      <DataTable style={{backgroundColor:'lightgreen',  fontSize:20, color: 'red', display:'flex', flexWrap:'wrap', whiteSpace: 'normal'}}
     shadow={0}
     rows={[
      
@@ -160,9 +160,36 @@ class Appa extends Component{
     <TableHeader name="description" tooltip="The amazing material description">Description</TableHeader>
     <TableHeader numeric name="price" cellFormatter={(price) => `\$${price.toFixed(2)}`} tooltip="Price pet unit">Price</TableHeader>
 </DataTable>
+ */}
+
+
+
+
+<ul class="flex-container">
+  <li class="flex-item">1</li>
+  <li class="flex-item" id='two'>2</li>
+  <li class="flex-item">3</li>
+ 
+</ul>
+
+<ul class="flex-container">
+<li class="flex-item">4</li>
+  <li class="flex-item" style={{flexWrap: 'wrap', flexFlow:'flex-wrap'}} id='five'>5lwkewjrtlekj9999999999999999999999999999tolwejrltjklkwerjlktjle;rkjtlkwejrljklekrjtlejrglkjelrjleoigeorlktmnoeirgklermnglj</li>
+  <li class="flex-item">6</li>
+</ul>
+
 
 
 </div>
+
+
+
+
+
+
+
+
+
 
 
 
