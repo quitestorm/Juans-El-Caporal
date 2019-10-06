@@ -13,9 +13,9 @@ body {
     #1e9600
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: rgb(6, 253, 6) !important;
-  border: 2em outset purple;
+
   font-family: "Lobster", cursive;
-  height:163em;
+  
 }
 /*  */
  
@@ -28,13 +28,14 @@ body {
   margin-right: auto;
 }
 
-.mdl-data-table {
+/* .mdl-data-table {
   white-space: normal !important;
   max-width: 100%;
   height: auto;
 display:block!important;
+word-wrap: break-word;
  
-}
+} */
 
 .header {
   background-color: rgb(10, 252, 171) !important;
@@ -87,7 +88,7 @@ h6 {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5K31gVVfaVS0wjtz_ppAMVfV6HfYyA-YxkvBsaNU9RVVgRDA");
   background-repeat: no-repeat;
   background-size: cover;
-}
+/* }
 
 #col11 {
   height: 24em;
@@ -121,14 +122,14 @@ h6 {
 
 
 
-.flex-table {
+/* .flex-table {
   display: grid;
   grid-template-columns: repeat(auto-fill, 33.33%);
   grid-template-rows: repeat(auto-fill, 100%);
   background-color: black;
   font-size:1.5em;
-}
-.first {
+} */
+/* .first {
   grid-column-start: 1;
   grid-column-end: 2;
   background-color: #1e9600
@@ -156,4 +157,4 @@ h6 {
 
 #role{
   background-color: rgb(255, 127, 227)
-}
+} */ }

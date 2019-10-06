@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: 'Acme', sans-serif;
  
@@ -82,24 +82,11 @@ h6 {
 }
 
 
-@media only screen and (max-width: 430px) {
-  .mdl-data-table{
-    
-    font-size: 1em!important;
-    display: inline-block !important;
-   }
- }
 
  .caption{
    color: cyan;
  }
 
- 
-@media only screen and (max-width: 336px) {
-  .mdl-data-table{
-    
-    font-size: .5em!important;
-   }
- }
+ */
 
 

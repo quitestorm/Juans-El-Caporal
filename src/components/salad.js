@@ -14,7 +14,7 @@ class Salad extends Component{
 
 
 
- <DataTable style={{backgroundColor:'lightgreen',    fontSize:20, color: 'red'}}
+ <DataTable style={{backgroundColor:'lightgreen' ,whiteSpace: 'normal', wordWrap:'break-word',  fontSize:20, color: 'red'}}
     shadow={0}
     rows={[
      
@@ -30,7 +30,7 @@ class Salad extends Component{
 >
 
     <TableHeader name="name" tooltip="The amazing material name">Name</TableHeader>
-    <TableHeader name="description" tooltip="The amazing material description">Description</TableHeader>
+    <TableHeader style={{flexShrink:3}} name="description" tooltip="The amazing material description">Description</TableHeader>
     <TableHeader numeric name="price" cellFormatter={(price) => `\$${price.toFixed(2)}`} tooltip="Price pet unit">Price</TableHeader>
 </DataTable> 
 

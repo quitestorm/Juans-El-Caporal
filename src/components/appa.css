@@ -1,46 +1,113 @@
+.responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#header{
+  display: block;
+  height: 3em;
+  background-color: blue!important;
+  width: auto;
+align-content: center;
+}
 
-
-.flex-container {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
+.row {
   display: flex;
-  
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item {
-  background: rgb(253, 216, 4);
-  padding: 5px;
-  width: 200px;
-  height: 150px;
-  margin-top: 10px;
+  flex-direction: row;
   flex-wrap: wrap;
-  line-height: 150px;
-  color: rgb(250, 9, 218);
-  font-weight: bold;
-  font-size: 3em;
-  text-align: center;
-  flex-flow: wrap;
+  align-content: center;
+}
+
+.column {
   flex-basis: content;
+  flex-wrap: wrap;
+  align-content: center;
 }
 
-#five{
-    flex-grow: 3;
-background-color: blueviolet;
-flex-basis: content;
-flex-wrap: wrap;
-flex-flow: wrap;
-white-space: normal;
+
+#box{
+  display:flexbox;
+  background-color: aqua;
+  align-content: center;
 }
 
-#two{
-    flex-grow: 3;
-    background-color: turquoise;
+.name{
+  width: 10%;
+  background-color: burlywood;
+  display: flex;
+  align-content: center;
+}
+.name :hover{
+  background-color: cyan;
+}
+.descript{
+  word-wrap: break-word;
+  display: flex;
+  flex-flow: row wrap;
+  background-color: #fceb08;
+  width: auto;
+  align-content: center;
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: normal;
+}
+.descript  :hover{
+  background-color: aqua;
+  color:rgb(247, 52, 247);
+}
+.price{
+  width: 10%;
+  background-color: coral;
+  display: flex;
+  align-content: center;
+}
+.price :hover{
+  background-color: rgb(255, 0, 212);
+  color:rgb(247, 52, 247);
+}
+
+.dog{
+  border-radius: 20%;
+  border: 1em outset purple
+}
+
+.parent {
+  background-color: #fceb08;
+  margin: 10px;
+  padding: 30px;
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap; /*flex-direction flex-wrap*/
+  align-items: center;
+  justify-content:center;
+  align-content: flex-start;
+}
+
+.contOne{
+  flex-direction: row;
+}
+
+.sub{
+  display: flex;
+  background-color: DodgerBlue;
+}
+@media only screen and (max-width: 330px) {
+  .column{
+    max-width: 5%!important;
+    display: block;
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  body{
+    max-width: 155!important;
+    display: block;
+    float: none;
+  }
 }
