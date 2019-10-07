@@ -4,7 +4,7 @@ import JUANS from './JUANS.png'
 import juanspho from './juanspho.png'
 import './landing.css';
 
-import Grids from './Grid'
+
 
 
 

@@ -90,3 +90,13 @@ h6 {
  */
 
 
+ @media only screen and (max-width: 322px) {
+ body{
+  justify-content: flex-start;
+    display: flex;
+    float: none;
+    width:10rem;
+    word-break: normal;
+    white-space: normal;
+   }
+ }

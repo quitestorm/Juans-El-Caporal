@@ -5,7 +5,7 @@ import JUANS from './JUANS.png'
 import juanspho from './juanspho.png'
 import juansaddr from './juansaddr.png'
 
-import Grids from './Grid'
+
 
 class Contact extends Component{
     render() {
