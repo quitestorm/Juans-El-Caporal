@@ -19,3 +19,10 @@
   color: rgb(253, 6, 179);
   background-color: rgb(140, 245, 3);
 }
+.responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

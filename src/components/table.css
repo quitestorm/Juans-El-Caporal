@@ -1,0 +1,101 @@
+
+#header{
+    display: block;
+    height: 5em;
+    background-color: rgb(21, 255, 0)!important;
+    width: auto;
+  align-content: center;
+  color:purple;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+  }
+
+  .column:hover{
+      background-color: rgb(245, 176, 72);
+  }
+  
+  .column {
+    flex-basis: content;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  
+  
+  #box{
+    display:flexbox;
+    background-color: lightgreen;
+    align-content: center;
+   
+    
+  }
+
+  .para{
+      font-size: 1.5em;
+  }
+  
+  .name{
+    width: auto;
+    display:block;
+    max-width: 15%;
+    color: darkorange;
+   margin-left: 1.5em;
+    display: flex;
+    align-content: center;
+  }
+  .name :hover{
+    background-color: cyan;
+    color: magenta;
+  }
+  .descript{
+    word-wrap: break-word;
+    display:block;
+    flex-flow: row wrap;
+    color: blue;
+    width: auto;
+    align-content: center;
+    max-width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: normal;
+  }
+  .descript  :hover{
+    background-color: aqua;
+    color:rgb(247, 52, 247);
+  }
+  .price{
+    width: auto;
+    color: darkorange;
+    margin-right: 1.7em;
+    display: inline-flexbox;
+    align-content: center;
+  }
+  .price :hover{
+    background-color: cyan;
+    color:rgb(247, 52, 247);
+  }
+  
+
+  @media only screen and (max-width: 700px) {
+    .para {
+     font-size:1.5em;
+    }
+  }
+
+  p, h4 {
+    font-family: "Lobster", cursive !important;
+  }
+  @media only screen and (max-width: 290px) {
+    .para {
+     font-size:1rem;
+    }
+  }
+
+ 

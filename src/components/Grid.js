@@ -58,9 +58,9 @@ const {rows, columns} = this.state;
          return(
 
 
-<div className= 'Grid'>
+<div className= 'Grid' className='responsive'>
 
-<Grid rows = {rows} columns = {columns}>
+<Grid className='responsive' style={{display:'block', whitespace:'normal'}}   rows = {rows} columns = {columns}>
     <Table />
     <TableHeaderRow />
 </Grid>

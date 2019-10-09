@@ -12,23 +12,23 @@ class About extends Component {
 <img className='responsive' src={JUANS} alt='juans'></img>
 
 
-<Card shadow={0} style={{width: 'auto', margin: '10'}}>
-    <CardTitle style={{color: 'red', height: '376px', background: 'url(https://s3-media2.fl.yelpcdn.com/bphoto/X5vmHXp5ah8_V1E1OTlZfA/o.jpg) center / cover'}}>Welcome</CardTitle>
-    <CardText style={{backgroundColor: 'red', color:'red', width: 'auto'}}>
-    <h3 className='Juans'>Juan’s El Caporal has long been the local’s favorite choice for Mexican food and a great place 
-    to enjoy a drink. Locally owned and operated since 1986, Juan’s El Caporal  is locatedbetween Eagle Point and Shady Cove, 
-    Oregon with plenty parking. Enjoy an authentic, traditional Mexican lunch or dinner  in our family friendly main dining room. 
-    Planning a bash? Have a party or get-together with 
-    a large group in our spacious banquet room (seats 50).  </h3>
-    </CardText>
-    <CardActions border>
-        <a href= '/mainMenu'>
-        <Button colored style={{backgroundColor: 'yellow', color:'red'}}>Get Started</Button></a>
-    </CardActions>
-    <CardMenu style={{backgroundColor: 'red'}}>
+// <Card shadow={0} style={{width: 'auto', margin: '10'}}>
+//     <CardTitle style={{color: 'red', height: '376px', background: 'url(https://s3-media2.fl.yelpcdn.com/bphoto/X5vmHXp5ah8_V1E1OTlZfA/o.jpg) center / cover'}}>Welcome</CardTitle>
+//     <CardText style={{backgroundColor: 'red', color:'red', width: 'auto'}}>
+//     <h3 className='Juans'>Juan’s El Caporal has long been the local’s favorite choice for Mexican food and a great place 
+//     to enjoy a drink. Locally owned and operated since 1986, Juan’s El Caporal  is locatedbetween Eagle Point and Shady Cove, 
+//     Oregon with plenty parking. Enjoy an authentic, traditional Mexican lunch or dinner  in our family friendly main dining room. 
+//     Planning a bash? Have a party or get-together with 
+//     a large group in our spacious banquet room (seats 50).  </h3>
+//     </CardText>
+//     <CardActions border>
+//         <a href= '/mainMenu'>
+//         <Button colored style={{backgroundColor: 'yellow', color:'red'}}>Get Started</Button></a>
+//     </CardActions>
+//     <CardMenu style={{backgroundColor: 'red'}}>
        
-    </CardMenu>
-</Card>
+//     </CardMenu>
+// </Card>
 
 
 
