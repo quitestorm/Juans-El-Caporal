@@ -14,6 +14,7 @@
     flex-wrap: wrap;
     align-content: center;
     
+    
   }
 
   .column:hover{
@@ -24,11 +25,12 @@
     flex-basis: content;
     flex-wrap: wrap;
     align-content: center;
+    display: contents;
   }
   
   
   #box{
-    display:flexbox;
+    display: flexbox;
     background-color: lightgreen;
     align-content: center;
    
@@ -41,7 +43,7 @@
   
   .name{
     width: auto;
-    display:block;
+    display:flex;
     max-width: 15%;
     color: darkorange;
    margin-left: 1.5em;
@@ -54,7 +56,7 @@
   }
   .descript{
     word-wrap: break-word;
-    display:block;
+    display:flex;
     flex-flow: row wrap;
     color: blue;
     width: auto;
@@ -74,7 +76,7 @@
     width: auto;
     color: darkorange;
     margin-right: 1.7em;
-    display: inline-flexbox;
+    display: flex;
     align-content: center;
   }
   .price :hover{

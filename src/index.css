@@ -82,7 +82,7 @@ h6 {
 }
 
 
-@media only screen and (max-width: 430px) {
+@media only screen and (min-width: 430px) {
   .mdl-data-table{
     
     font-size: 1em!important;
@@ -96,8 +96,35 @@ h6 {
 
  
 @media only screen and (max-width: 336px) {
-  .mdl-data-table{
+  .box{
     
     font-size: .5em!important;
    }
  }
+
+ @media only screen and (max-width: 305px) {
+ img{
+  max-width: 5em!important;
+  display: block;
+  float: none;
+  width:5;
+ }
+   }
+
+   
+ @media only screen and (max-width: 185px) {
+  img{
+   max-width: 4em!important;
+   display: block;
+   float: none;
+   width:5;
+  }
+    }
+ 
+    @media only screen and (max-width: 305px) {
+      .price{
+        display: block;
+        float: right;
+      
+      }
+        }

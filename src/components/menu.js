@@ -14,7 +14,7 @@ class Menu extends Component{
 
 
 
-<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'yellow'}}
+<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'yellow '}}
     shadow={0}
     rows={[
      
