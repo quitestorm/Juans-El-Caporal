@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import Menu from './menu'
+
 import {TableHeader, DataTable} from 'react-mdl'
-import Carousels from './carousel'
+import {Container, Row, Col, } from 'react-bootstrap'
 import Carousel from 'react-bootstrap/Carousel'
   import './carsouel.css';
- 
+
 
 
 
@@ -106,7 +106,7 @@ class Ameri extends Component{
       </div>
 
 
-
+{/* <Container>
 
 <DataTable style={{backgroundColor:'lightgreen',  fontSize:20, color: 'red'}}
     shadow={0}
@@ -128,10 +128,85 @@ class Ameri extends Component{
     <TableHeader numeric name="price" cellFormatter={(price) => `\$${price.toFixed(2)}`} tooltip="Price pet unit">Price</TableHeader>
 </DataTable>
 
+</Container> */}
+
+<Container className='ccontainer'>
+
+<div className='topDiv'>
+
+<div className='name' style={{backgroundColor: 'limegreen', borderRadius:'20%'}}>
+<Row>
+    <Col sm={2} ><h4 className='name'>Naame</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Description</h4></Col>
+    <Col sm={2} ><h4 className='price'>Price</h4></Col>
+  </Row>
+  </div>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>Hambuger</h4></Col>
+    <Col sm={8} ><h4 className='descript'>served with fries</h4></Col>
+    <Col sm={2} ><h4 className='price'>$6.95</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Cheesebuger</h4></Col>
+    <Col sm={8} ><h4 className='descript'>served with fries</h4></Col>
+    <Col sm={2} ><h4 className='price'>$6.95</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Vegitarian Nachos</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Corn tortilla chips covered with pinto beans, cheese, tomatoes, onions, sour cream, and guacamole</h4></Col>
+    <Col sm={2} ><h4 className='price'>$7.55</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>Jalapeno Poppers</h4></Col>
+    <Col sm={8} ><h4 className='descript'>served with fries </h4></Col>
+    <Col sm={2} ><h4 className='price'>$6.10</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Fajita Quesadilla</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
+    <Col sm={2} ><h4 className='price'>$10.95</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>Mexican Pizza</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Crispy flour tortilla with choice of meat, refried beans, cheeseand garnished with tomatoes, onions, guacamole, and sour cream </h4></Col>
+    <Col sm={2} ><h4 className='price'>$8.75</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>El Caporal Sampler</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
+    <Col sm={2} ><h4 className='price'>$13.75</h4></Col>
+  </Row>
+  </div>
 
 
+ 
+</Container>
 
-            </div>
+</div>
+
+
+           
         )
     }
 }

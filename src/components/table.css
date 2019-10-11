@@ -42,46 +42,43 @@
   }
   
   .name{
-    width: auto;
-    display:flex;
-    max-width: 15%;
-    color: darkorange;
-   margin-left: 1.5em;
-    display: flex;
+    
+    display:block;
+    white-space: normal;
+    color: rgb(47, 0, 255);
+   
+    word-wrap: break-word;
     align-content: center;
   }
-  .name :hover{
+  .name:hover{
     background-color: cyan;
     color: magenta;
   }
   .descript{
-    word-wrap: break-word;
-    display:flex;
-    flex-flow: row wrap;
-    color: blue;
-    width: auto;
-    align-content: center;
-    max-width: 70%;
-    height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    font-family: "Lobster", cursive;
+    display:block;
     white-space: normal;
+    color: rgb(47, 0, 255);
+   
+    word-wrap: break-word;
+    align-content: center;
   }
-  .descript  :hover{
-    background-color: aqua;
-    color:rgb(247, 52, 247);
+  .descript:hover{
+    background-color: rgb(252, 248, 6);
+    color: magenta;
   }
   .price{
-    width: auto;
-    color: darkorange;
-    margin-right: 1.7em;
-    display: flex;
+    
+    display:block;
+    white-space: normal;
+    color: rgb(47, 0, 255);
+   
+    word-wrap: break-word;
     align-content: center;
   }
-  .price :hover{
-    background-color: cyan;
-    color:rgb(247, 52, 247);
+  .price:hover{
+    background-color: rgb(252, 248, 6);
+    color: magenta;
   }
   
 
@@ -92,12 +89,65 @@
   }
 
   p, h4 {
-    font-family: "Lobster", cursive !important;
-  }
-  @media only screen and (max-width: 290px) {
-    .para {
-     font-size:1rem;
-    }
+    font-family: "Lobster", cursive!important;
   }
 
  
+
+
+  .ccontainer{
+    height:auto;
+    width:100em;
+    color:rgb(50, 5, 252);
+    white-space: normal;
+    word-wrap: break-word;
+    font-family: "Lobster", cursive; 
+  }
+
+  @media only screen and (min-width: 155px) {
+    .ccontainer {
+     width:100%;
+    }
+  }
+
+  /* unvisited link */
+.name:link {
+  color: #FF0000;
+}
+
+/* visited link */
+.name:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+.name:hover {
+  background-color: rgb(252, 248, 6);
+    color: magenta;
+}
+
+/* selected link */
+.name:active {
+  color: #0000FF;
+}
+.carsouel{
+  position:fixed;
+   top:95px; 
+   position:sticky; /* Required for Safari */
+  position: sticky;
+    z-index: 10;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}

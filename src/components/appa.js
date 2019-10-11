@@ -5,7 +5,7 @@ import {TableHeader, DataTable} from 'react-mdl'
 import Carousel from 'react-bootstrap/Carousel'
   import './carsouel.css';
 import './table.css' ;
-
+import {Container, Row, Col, } from 'react-bootstrap'
 
  
 
@@ -13,24 +13,23 @@ import './table.css' ;
 
 class Appa extends Component{
 
-
+ 
 
 
     render() {
-
-
-        
+      
         return(
-
+        
+        
             <div>
 
 <h1>APPATIZERS</h1>
 
-<div style={{height: 250, backgroundColor:'magenta', color:'cyan'}} className='respomsive' className='caradiv'>
+<div classname='carsouel' style={{height: 250, backgroundColor:'magenta', color:'cyan'}} className='respomsive' className='caradiv'>
 
 
 
-<Carousel  >
+<Carousel >
   <Carousel.Item>
     <img
       className="d-block w-80"
@@ -162,7 +161,7 @@ class Appa extends Component{
 </DataTable> */}
 
 
-
+{/* 
 
 <div className='responsive' id='top'>
 
@@ -296,8 +295,76 @@ class Appa extends Component{
 </div>
 
 </div>
+ */}
 
 
+<Container className='ccontainer'>
+<div className='topDiv'>
+<Row>
+    <Col sm={2} ><h4 className='name'>Nachos</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Corn tortilla chips with a choice of meat (chicken, beef, or shreded beef), beans,melted cheese, chopped tomatoes, onion, guacamole, and sour cream</h4></Col>
+    <Col sm={2} ><h4 className='price'>$6.75</h4></Col>
+  </Row>
+  </div>
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>Chicken Taquitos</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
+    <Col sm={2} ><h4 className='price'>$6.95</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Mexican Quesadilo</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Two soft flour tortilias stuffed with cheddar and monteray jack cheese, green onions, tomatoes, and your choice of chicken, beef, or shrdded beef </h4></Col>
+    <Col sm={2} ><h4 className='price'>$6.95</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Vegitarian Nachos</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Corn tortilla chips covered with pinto beans, cheese, tomatoes, onions, sour cream, and guacamole</h4></Col>
+    <Col sm={2} ><h4 className='price'>$7.55</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>Jalapeno Poppers</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Cream cheese mounded high on half of a jallapeno popper. Covered with a delicious potato breading. Served with a hot sauce </h4></Col>
+    <Col sm={2} ><h4 className='price'>$6.10</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Fajita Quesadilla</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
+    <Col sm={2} ><h4 className='price'>$10.95</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>Mexican Pizza</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Crispy flour tortilla with choice of meat, refried beans, cheeseand garnished with tomatoes, onions, guacamole, and sour cream </h4></Col>
+    <Col sm={2} ><h4 className='price'>$8.75</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>El Caporal Sampler</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
+    <Col sm={2} ><h4 className='price'>$13.75</h4></Col>
+  </Row>
+  </div>
+
+
+ 
+</Container>
 
 </div>
 

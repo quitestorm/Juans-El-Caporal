@@ -12,7 +12,7 @@ body {
     #fff200,
     #1e9600
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: rgb(6, 253, 6) !important;
+  color:purple!important;
   border: 2em outset purple;
   font-family: "Lobster", cursive;
   height:auto;
