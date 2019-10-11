@@ -1,28 +1,8 @@
 import React, {Component} from 'react';
-import {Tabs, Tab} from 'react-mdl'
-import Layout from './layout';
-import Menu from './menu'
+
 import {Grid, Cell} from 'react-mdl'
 
-import {Switch, Route} from 'react-router-dom';
-import About from './about';
-import Contact from './contact';
 
-import Landing from './landing';
-
-import Ameri from './ameri';
-import Appa from './appa';
-import Bar from './bar';
-import Break from './break';
-import Burritos from './burritos';
-import Combos from './combos';
-import Dess from './dess';
-import Pollo from './pollo';
-import Salad from './salad';
-import Seafood from './seafood';
-import Sides from './sides';
-import Soup from './soup';
-import Toast from './toast';
 import './mainMenu.css';
 
 

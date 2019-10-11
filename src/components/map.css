@@ -17,3 +17,8 @@
     border: 2em solid lime;
   }
   
+  @media only screen and (min-width: 280px) {
+    .map {
+      min-width: 75%!important;
+    }
+  }

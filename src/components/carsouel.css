@@ -37,7 +37,20 @@
 .imgs{
   height: 18em!important;
 width:18em!important;
-border: 1rem solid purple;
+border: 1rem solid rgb(100, 243, 4);
 border-radius: 20%;
 
 } 
+
+.caradiv{
+  height: 20em;
+  background-color: magenta;
+  border: .5em solid blue;
+}
+h3{
+  color:lime;
+}
+p{
+  color:gold;
+ 
+}

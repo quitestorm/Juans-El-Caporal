@@ -1,7 +1,7 @@
 
 #header{
     display: block;
-    height: 5em;
+    
     background-color: rgb(21, 255, 0)!important;
     width: auto;
   align-content: center;
@@ -102,6 +102,7 @@
     white-space: normal;
     word-wrap: break-word;
     font-family: "Lobster", cursive; 
+    border: 1rem outset gold;
   }
 
   @media only screen and (min-width: 155px) {
@@ -150,4 +151,8 @@
 
 .sticky + .content {
   padding-top: 102px;
+}
+
+.topDiv{
+ 
 }
