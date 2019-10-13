@@ -42,7 +42,7 @@ function App() {
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">
       <Nav.Link > <Link className='link' to="/about">About</Link ></Nav.Link>
-      <Nav.Link > <Link className='link' to="/mainMenu">Menu</Link ></Nav.Link>
+      <Nav.Link > <Link style={{height:22}} className='link' to="/mainMenu">Menu</Link ></Nav.Link>
       {/* <NavDropdown title={<Link  className='link'  to="/mainMenu">Menu</Link >} id="basic-nav-dropdown" >
         <NavDropdown.Item href="/appa">Appatizers</NavDropdown.Item>
         <NavDropdown.Item href="/salad">Salads</NavDropdown.Item>

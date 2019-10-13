@@ -124,16 +124,16 @@ body {
 
 .link {
   background-color: rgb(10, 252, 171) !important;
-  color: rgb(8, 141, 79) !important;
-  height: 0.5em;
+  color: rgb(145, 42, 241) !important;
+  height: 12em;
 }
 
 .link2 {
   background-color: rgb(10, 252, 171) !important;
   color: red !important;
   font-family: "Lobster", cursive;
+  height: 3em;
 }
-
 
 .apptize {
   color: blue;

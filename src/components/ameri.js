@@ -35,7 +35,7 @@ class Ameri extends Component{
     />
     <Carousel.Caption>
       <h3>Hambuger</h3>
-      <p>served with fries.</p>
+      <h5>served with fries.</h5>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -48,7 +48,7 @@ class Ameri extends Component{
 
     <Carousel.Caption>
       <h3>Cheesebuger</h3>
-      <p>served with fries.</p>
+      <h5>served with fries.</h5>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -60,7 +60,7 @@ class Ameri extends Component{
 
     <Carousel.Caption>
       <h3>El Caporal Buger</h3>
-      <p>Served with monterey jack cheese, guacamole, bacon and fries</p>
+      <h5>Served with monterey jack cheese, guacamole, bacon and fries</h5>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -71,8 +71,8 @@ class Ameri extends Component{
       alt="First slide"
     />
     <Carousel.Caption>
-      <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <h3>Chicken Burger</h3>
+      <h5>Served with fries </h5>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -84,7 +84,7 @@ class Ameri extends Component{
 
     <Carousel.Caption>
       <h3>Chicken Burger</h3>
-      <p>Served with fries.</p>
+      <h5>Served with fries.</h5>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -96,7 +96,7 @@ class Ameri extends Component{
 
     <Carousel.Caption>
       <h3>Angus Ribeye Steak</h3>
-      <p>Served with salad and fries.</p>
+      <h5>Served with salad and fries.</h5>
     </Carousel.Caption>
   </Carousel.Item>
 
@@ -134,13 +134,7 @@ class Ameri extends Component{
 
 <div className='topDiv' >
 
-<div className='' style={{backgroundColor: 'lime', borderRadius:'20%'}}>
-<Row >
-    <Col sm={3} ><h4 className='name'>Name</h4></Col>
-    <Col sm={7} ><h4 className='descript'>Description</h4></Col>
-    <Col sm={2} ><h4 className='price'>Price</h4></Col>
-  </Row>
-  </div>
+
 
 
   <div className='name'>
@@ -153,7 +147,7 @@ class Ameri extends Component{
 
   <div className='name'>
 <Row>
-    <Col sm={3} ><h4 className='name' style={{fontSize:19}}>Cheesebuger</h4></Col>
+    <Col sm={3} ><h4 className='name'>Cheesebuger</h4></Col>
     <Col sm={7} ><h4 className='descript'>served with fries</h4></Col>
     <Col sm={2} ><h4 className='price'>$6.95</h4></Col>
   </Row>
@@ -161,49 +155,41 @@ class Ameri extends Component{
 
   <div className='name'>
 <Row>
-    <Col sm={3} ><h4 className='name' style={{fontSize:19}}>Vegitarian Nachos</h4></Col>
-    <Col sm={7} ><h4 className='descript'>Corn tortilla chips covered with pinto beans, cheese, tomatoes, onions, sour cream, and guacamole</h4></Col>
-    <Col sm={2} ><h4 className='price'>$7.55</h4></Col>
+    <Col sm={3} ><h4 className='name' >El Caporal Buger</h4></Col>
+    <Col sm={7} ><h4 className='descript'>'Served with monterey jack cheese, guacamole, bacon and fries</h4></Col>
+    <Col sm={2} ><h4 className='price'>$8.95</h4></Col>
   </Row>
   </div>
 
   <div className='name'>
 <Row>
-    <Col sm={3} ><h4 className='name'>Jalapeno Poppers</h4></Col>
+    <Col sm={3} ><h4 className='name'>Chicken Burger</h4></Col>
     <Col sm={7} ><h4 className='descript'>served with fries </h4></Col>
-    <Col sm={2} ><h4 className='price'>$6.10</h4></Col>
+    <Col sm={2} ><h4 className='price'>$7.45</h4></Col>
   </Row>
   </div>
 
   <div className='name'>
 <Row>
-    <Col sm={3} ><h4 className='name' style={{fontSize:19}}>Fajita Quesadilla</h4></Col>
-    <Col sm={7} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
-    <Col sm={2} ><h4 className='price'>$10.95</h4></Col>
+    <Col sm={3} ><h4 className='name'>Rib Eye Steak, Angus Rib Eye</h4></Col>
+    <Col sm={7} ><h4 className='descript'>Served with salad</h4></Col>
+    <Col sm={2} ><h4 className='price'>$19.75</h4></Col>
   </Row>
-  </div>
+ 
 
-  <div className='name'>
+ 
 <Row>
-    <Col sm={3} ><h4 className='name'>Mexican Pizza</h4></Col>
-    <Col sm={7} ><h4 className='descript'>Crispy flour tortilla with choice of meat, refried beans, cheeseand garnished with tomatoes, onions, guacamole, and sour cream </h4></Col>
-    <Col sm={2} ><h4 className='price'>$8.75</h4></Col>
+    <Col sm={3} ><h4 className='name'></h4></Col>
+    <Col sm={7} ><h4 className='descript'>with shrimp add </h4></Col>
+    <Col sm={2} ><h4 className='price'>$5.50</h4></Col>
   </Row>
   </div>
-
-  <div className='name'>
-<Row>
-    <Col sm={3} ><h4 className='name'>El Caporal Sampler</h4></Col>
-    <Col sm={7} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
-    <Col sm={2} ><h4 className='price'>$13.75</h4></Col>
-  </Row>
+  </div>
+  </Container>
   </div>
 
 
-  </div>
-</Container>
 
-</div>
 
 
            

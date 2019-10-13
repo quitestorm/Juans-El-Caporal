@@ -33,8 +33,8 @@ class Landing extends Component{
         <Grid className="demo-grid-3">
         <Cell col={12} id='col3'>
             <div  className='responsive' className="grid-3">
-        <p  style={{fontSize:32}} className='responsive' >GREAT FAMILY ATMOSPHERE</p>
-        <p  style={{fontSize:32}} className='responsive'  >DINE IN OR TAKEOUT</p>
+        <p  style={{fontSize:32, color:'blue'}} className='responsive' >GREAT FAMILY ATMOSPHERE</p>
+        <p  style={{fontSize:32, color: 'blue'}} className='responsive'  >DINE IN OR TAKEOUT</p>
         </div>
 <div  className='responsive' className='hours'>
     <h4>Hours:<br></br>
