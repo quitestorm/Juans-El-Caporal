@@ -34,11 +34,12 @@
   height: 5em;
 }
 
-.imgs{
-  height: 18em!important;
-width:18em!important;
-border: 1rem solid rgb(100, 243, 4);
+.carselPic{
+ height: 17em!important;
+ width: 20em;
+border: 1rem solid rgb(243, 4, 16);
 border-radius: 20%;
+margin-left: 15em;
 
 } 
 
