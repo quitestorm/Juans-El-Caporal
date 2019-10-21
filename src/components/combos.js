@@ -21,7 +21,7 @@ class Combos extends Component{
         
             <div>
 
-<h1>APPATIZERS</h1>
+<h1>COMBINATION DINNERS</h1>
 
 <div classname='carsouel' style={{height: 250, backgroundColor:'magenta', color:'cyan'}} className='respomsive' className='caradiv'>
 
@@ -135,7 +135,15 @@ class Combos extends Component{
     
 
 <Container className='ccontainer'>
-<div className='topDiv'handleScrollCallback={this.handleScrollCallback}>
+<div className='topDiv'>
+<div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' ></h4></Col>
+    <Col sm={6} ><h4 className='descript'>All Combinations served with rice, beans, and filling choice of ground beef, chicken, cheese, or shredded beef.</h4></Col>
+    <Col sm={4} ><h4 className='price'>Salad add $2.00 - Steak or Grilled chicken add $2.25</h4></Col>
+  </Row>
+  </div></div>
+  <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name' >#1</h4></Col>
     <Col sm={8} ><h4 className='descript'>One Chimichanga</h4></Col>

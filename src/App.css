@@ -19,56 +19,7 @@ body {
   height:auto;
  
 }
-/* 
-/*
- * Define the widths: play around with these to get a best fit.
- */
- /* @text-width: 155px;
- @num-width: 80px;
- 
- 
- .table-row {
-   display: flex;           display: -webkit-flex;
-   flex-direction: row;     -webkit-flex-direction: row;
-   flex-grow: 0;            -webkit-flex-grow: 0;
-   width: 100%;
-   padding-left: 15px;
-   padding-right: 15px;
- }
- 
- 
- .wrapper {
-   display: flex;           display: -webkit-flex;
-   flex-direction: row;     -webkit-flex-direction: row;
-   flex-grow: 0;            -webkit-flex-grow: 0;
-   flex-wrap: wrap;         -webkit-flex-wrap: wrap;
- }
- 
- 
- .text-4, .text-2, .text {
-   flex-grow: 1;           -webkit-flex-grow: 1;
- }
- 
- 
- .text {
-   overflow: hidden;
-   white-space: nowrap;
-   text-overflow: ellipsis;
-   padding-right: 20px;
- }
- 
 
- .text {
-   width:auto;
- }
- 
- .num {
-   width: auto;
- }
- 
- /*
-  * General good-look styles, not mandatory.
-  */
  body {
    font-size: 20px;
  }
@@ -86,19 +37,7 @@ body {
    padding-bottom: 8px;
  }  */
  
- /* Some borders to show the behaviour. Uncomment to see it in action */
- /*
- .text-2, .num-2 {
-   border: 1px solid green;
-   padding: 2px;
-   margin: 2px;
- }
  
- .text-4, .num-4 {
-   border: 1px solid red;
-   margin: 2px;
- }
- */
 .responsive {
   max-width: 100%;
   height: auto;
@@ -147,7 +86,9 @@ body {
   background-color: aqua;
 }
 
-
+.phone{
+  margin-left: 18em;
+}
 
 h1,
 h2,

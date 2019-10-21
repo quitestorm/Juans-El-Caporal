@@ -13,9 +13,9 @@ class Contact extends Component{
             <div>
 <h1>Contact Us</h1>
 
-<img className='responsive' src={JUANS}></img><img className='responsive'src={juansaddr}></img>
+<img className='responsive' src={JUANS}alt=''></img><img className='responsive'src={juansaddr}></img>
 
-<img className='responsive' src={juanspho}></img>
+<img className='responsive' src={juanspho} alt=''></img>
 
 <Grid className='responsive'className="demo-grid-1">
         <Cell col={12} id='col11'></Cell>

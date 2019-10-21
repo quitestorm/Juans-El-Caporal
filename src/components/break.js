@@ -89,49 +89,9 @@ class Break extends Component{
 
   <div className='name'>
 <Row>
-    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Mexican Quesadilo</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Two soft flour tortilias stuffed with cheddar and monteray jack cheese, green onions, tomatoes, and your choice of chicken, beef, or shrdded beef </h4></Col>
-    <Col sm={2} ><h4 className='price'>$6.95</h4></Col>
-  </Row>
-  </div>
-
-  <div className='name'>
-<Row>
-    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Vegitarian Nachos</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Corn tortilla chips covered with pinto beans, cheese, tomatoes, onions, sour cream, and guacamole</h4></Col>
-    <Col sm={2} ><h4 className='price'>$7.55</h4></Col>
-  </Row>
-  </div>
-
-  <div className='name'>
-<Row>
-    <Col sm={2} ><h4 className='name'>Jalapeno Poppers</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Cream cheese mounded high on half of a jallapeno popper. Covered with a delicious potato breading. Served with a hot sauce </h4></Col>
-    <Col sm={2} ><h4 className='price'>$6.10</h4></Col>
-  </Row>
-  </div>
-
-  <div className='name'>
-<Row>
-    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Fajita Quesadilla</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
-    <Col sm={2} ><h4 className='price'>$10.95</h4></Col>
-  </Row>
-  </div>
-
-  <div className='name'>
-<Row>
-    <Col sm={2} ><h4 className='name'>Mexican Pizza</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Crispy flour tortilla with choice of meat, refried beans, cheeseand garnished with tomatoes, onions, guacamole, and sour cream </h4></Col>
-    <Col sm={2} ><h4 className='price'>$8.75</h4></Col>
-  </Row>
-  </div>
-
-  <div className='name'>
-<Row>
-    <Col sm={2} ><h4 className='name'>El Caporal Sampler</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Cround beef nachos, chicken taquitos, picadillo taquitos, cheese quesadilla, jalapeno poppers.  Garnished with tomatoes, onions, sour cream and guacamole</h4></Col>
-    <Col sm={2} ><h4 className='price'>$13.75</h4></Col>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Huevos con Machaca</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Scrambled eggs withshredded beef,bell peppers and onions. Served with rice and beans.</h4></Col>
+    <Col sm={2} ><h4 className='price'>$10.65</h4></Col>
   </Row>
   </div>
 

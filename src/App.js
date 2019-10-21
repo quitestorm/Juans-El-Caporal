@@ -2,10 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import Main from './components/main'
-import { Header, Navigation,Drawer} from 'react-mdl'
-import {  Link } from "react-router-dom";
-import {Nav, Navbar, NavDropdown, Form, FormControl, Button} from 'react-bootstrap'
 
+import {  Link } from "react-router-dom";
+import {Nav, Navbar} from 'react-bootstrap'
+import Juanspho from './components/juanspho.png'
 
 
 
@@ -24,6 +24,7 @@ function App() {
       <Nav.Link > <Link style={{height:22}} className='link' to="/mainMenu">Menu</Link ></Nav.Link>
      
       <Nav.Link > <Link className='link' to="/contact">Contact</Link ></Nav.Link>
+      <img className='phone' src={Juanspho} alt=''></img>
 
     </Nav>
   
