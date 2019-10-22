@@ -1,37 +1,25 @@
 
-.container {
-  position: relative;
-  max-width: 800px; /* Maximum width */
-  /* 
 
-.container .content {
-  position: relative; /* Position the background text */
-  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-  background: rgb(0, 0, 0); /* Fallback color */
-  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-  color: #f5e31d; /* Grey text */
-  width: 100%; /* Full width */
-  padding: 20px; /* Some padding */
-}
 .carousel{
   height: 10px!important;
   
   color: #ff0000;
   margin-bottom: 20em!important;
 }
+
 .caption{
   color: #ff0000;
 }
 .carousel-control-prev,
 .carousel-control-next{
   position: absolute;
-  color:black;
+  background-color:black;
 }
 
 
 .container {
   background-color: cyan;
-  height: 5em;
+  height:auto;
 }
 
 .carselPic{
@@ -54,4 +42,11 @@ h3{
 p{
   color:gold;
  
+}
+
+@media screen and (max-width: 570px) {
+  .carselPic{
+   margin-left: 0em!important;
+   width:10em!important;
+  }
 }

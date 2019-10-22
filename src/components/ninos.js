@@ -46,7 +46,7 @@ class Ninos extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Carne Azada</h4></Col>
-    <Col sm={8} ><h4 className='descript'></h4></Col>
+    <Col sm={8} ></Col>
     <Col sm={2} ><h4 className='price'>$6.95</h4></Col>
   </Row>
   </div>
@@ -54,7 +54,7 @@ class Ninos extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Enchilada de  Camaron</h4></Col>
-    <Col sm={8} ><h4 className='descript'></h4></Col>
+    <Col sm={8} ></Col>
     <Col sm={2} ><h4 className='price'>$7.40</h4></Col>
   </Row>
   </div>

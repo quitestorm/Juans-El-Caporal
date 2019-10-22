@@ -5,7 +5,7 @@ import JUANS from './JUANS.png'
 import juanspho from './juanspho.png'
 import juansaddr from './juansaddr.png'
 
-import Grids from './Grid'
+
 
 class Contact extends Component{
     render() {
@@ -13,11 +13,11 @@ class Contact extends Component{
             <div>
 <h1>Contact Us</h1>
 
-<img className='responsive' src={JUANS}alt=''></img><img className='responsive'src={juansaddr}></img>
+<img className='responsive' src={JUANS}alt='juan'></img><img className='responsive' alt='address' src={juansaddr}></img>
 
-<img className='responsive' src={juanspho} alt=''></img>
+<img className='responsive' src={juanspho} alt='phone'></img>
 
-<Grid className='responsive'className="demo-grid-1">
+<Grid className='responsive demo-grid-1'>
         <Cell col={12} id='col11'></Cell>
 </Grid>
      

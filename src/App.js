@@ -12,11 +12,11 @@ import Juanspho from './components/juanspho.png'
 
 function App() {
   return (
-    <div className="App"className='responsive' >
+    <div className='App responsive' >
    
 
 <Navbar className='responsive' bg="warning" expand="lg" >
-  <Navbar.Brand> <  Link className='responsive'  className='link2'  to="/"><h4 className='responsive'>JUANS EL CAPORAL</h4></Link></Navbar.Brand>
+  <Navbar.Brand> <  Link className='responsive link2'  to="/"><h4 className='responsive'>JUANS EL CAPORAL</h4></Link></Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="mr-auto">

@@ -23,14 +23,14 @@ class Toast extends Component{
 
 <h1>lAS TOSTADAS</h1>
 
-<div classname='carsouel' style={{height: 250, backgroundColor:'magenta', color:'cyan'}} className='respomsive' className='caradiv'>
+<div classname='carsouel caradiv respomsive' style={{height: 250, backgroundColor:'magenta', color:'cyan'}}>
 
 
 
 <Carousel >
   <Carousel.Item>
     <img
-      className="d-block w-80" className='carselPic'
+      className='carselPic'
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1MlyjRx2MsZ4rpMSq8r9aTS7Bh1pgz3o5sYx3VzKzH31rr72XPg'
       alt="Tostada"
     />
@@ -41,7 +41,7 @@ class Toast extends Component{
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-80" className='carselPic'
+      className='carselPic'
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1_XegbZxAd-jpB4phsAkqzRIfjsa0TO6DAxOAzr2Ufy24FZSboA'
       alt="Thirdeee slide"
     />
@@ -53,7 +53,7 @@ class Toast extends Component{
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-80" className='carselPic'
+      className='carselPic'
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRec2MZm65pnM16NauflWUcRIZ7W0HBQMvlX8YZUUpWa4bhr9OYMg'
       alt="Third slide"
     />
@@ -66,7 +66,7 @@ class Toast extends Component{
 
   <Carousel.Item>
     <img
-      className="d-block w-80" className='carselPic'
+      className='carselPic'
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeZ1XsQ-p_sxKHfJQLlIFsbMnoaNb7keXaBUnhLFYXcUq4BkyB'
       alt="Refried bean and Beef"
     />
@@ -77,7 +77,7 @@ class Toast extends Component{
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-80" className='carselPic'
+      className='carselPic'
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTga2Q427r2ep8GUp9CN-w6_Z0wuPkND29a_g2VuktbR4MiBtB-g'
       alt="Third slide"
     />
@@ -89,7 +89,7 @@ class Toast extends Component{
   </Carousel.Item>
   <Carousel.Item>
     <img
-      className="d-block w-80" className='carselPic'
+     className='carselPic'
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvfP2-5ZVncTdtEvIQHwhmL5h4h2CezDZWBCw2ZBrlz3IiQWjMYg'
       alt="Third slide"
     />
@@ -102,7 +102,7 @@ class Toast extends Component{
 
   <Carousel.Item>
     <img
-      className="d-block w-80" className='carselPic'
+      className='carselPic'
       src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPXuTMp3MZ-67YF1Ih-IQekOr2gso6Prcn-VV27YrqvMXUXmUDQ'
       alt="Third slide"
     />
@@ -132,32 +132,32 @@ class Toast extends Component{
   </div></div>
   <div className='name'>
 <Row>
-    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Refried bean and Chicken or Picadillo Tostada</h4></Col>
-    <Col sm={8} ><h4 className='descript'></h4></Col>
+    <Col sm={4} ><h4 className='name' style={{fontSize:19}}>Refried bean and Chicken or Picadillo Tostada</h4></Col>
+    <Col sm={6} ></Col>
     <Col sm={2} ><h4 className='price'>$7.15</h4></Col>
   </Row>
   </div>
 
   <div className='name'>
 <Row>
-    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Whole pinto bean Tostada</h4></Col>
-    <Col sm={8} ><h4 className='descript'></h4></Col>
+    <Col sm={4} ><h4 className='name' style={{fontSize:19}}>Whole pinto bean Tostada</h4></Col>
+    <Col sm={6} ></Col>
     <Col sm={2} ><h4 className='price'>$6.35</h4></Col>
   </Row>
   </div>
 
   <div className='name'>
 <Row>
-    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Refried Bean and Beef Tostada</h4></Col>
-    <Col sm={8} ><h4 className='descript'></h4></Col>
+    <Col sm={4} ><h4 className='name' style={{fontSize:19}}>Refried Bean and Beef Tostada</h4></Col>
+    <Col sm={6} ></Col>
     <Col sm={2} ><h4 className='price'>$7.15</h4></Col>
   </Row>
   </div>
 
   <div className='name'>
 <Row>
-    <Col sm={2} ><h4 className='name'>Refried Bean Tostada</h4></Col>
-    <Col sm={8} ><h4 className='descript'></h4></Col>
+    <Col sm={4} ><h4 className='name'>Refried Bean Tostada</h4></Col>
+    <Col sm={6} ></Col>
     <Col sm={2} ><h4 className='price'>$6.35</h4></Col>
   </Row>
   </div>
@@ -173,7 +173,7 @@ class Toast extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name'>Avocado Tostada</h4></Col>
-    <Col sm={8} ><h4 className='descript'>CChoice of chicken, beef or shredded beef topped with avocado slices and sour cream </h4></Col>
+    <Col sm={8} ><h4 className='descript'>Choice of chicken, beef or shredded beef topped with avocado slices and sour cream </h4></Col>
     <Col sm={2} ><h4 className='price'>$8.75</h4></Col>
   </Row>
   </div>

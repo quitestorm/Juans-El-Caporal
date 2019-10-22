@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
-import Carousel from 'react-bootstrap/Carousel'
-  import './carsouel.css';
+
+ 
 import './table.css' ;
 import {Container, Row, Col, } from 'react-bootstrap'
 
@@ -22,7 +22,7 @@ class Bar extends Component{
         <li><h4>Chardonay</h4></li>
         <li><h4>Merlot</h4></li>
         </ul></h4></Col>
-    <Col sm={2} ><h4 className='price'></h4></Col>
+    <Col sm={2} ></Col>
   </Row>
   </div></div>
   <div className='name'>
@@ -36,7 +36,7 @@ class Bar extends Component{
         <li style={{fontSize:19}}>Loco-- 4rums, Orange,Pineapple Juice & Splash of Grenadine</li>
         
         </ul></h4></Col>
-    <Col sm={2} ><h4 className='price'></h4></Col>
+    <Col sm={2} ></Col>
   </Row>
   </div>
 
@@ -53,13 +53,13 @@ class Bar extends Component{
         <li><h4> Negra Modelo</h4></li>
         </ul>
         </h4></Col>
-    <Col sm={2} ><h4 className='price'></h4></Col>
+    <Col sm={2} ></Col>
   </Row>
   </div>
 
   <div className='name'>
 <Row>
-    <Col sm={2} ><h4 className='name' style={{fontSize:19}}></h4></Col>
+    <Col sm={2} ></Col>
     <Col sm={8} ><h4 className='descript'>DOMESTIC:  
     <ul>
         <li><h4>Bud Light</h4></li>
@@ -68,16 +68,16 @@ class Bar extends Component{
         <li><h4>Michelob Ultra</h4></li>
         </ul>
         </h4></Col>
-    <Col sm={2} ><h4 className='price'></h4></Col>
+    <Col sm={2} ></Col>
   </Row>
   </div>
 
   <div className='name'>
 <Row>
-    <Col sm={2} ><h4 className='name'></h4></Col>
+    <Col sm={2} ></Col>
     <Col sm={8} ><h4 className='descript'>NON_ALCOHOLIC
     <ul><li><h4>O'Doul's</h4></li></ul></h4></Col>
-    <Col sm={2} ><h4 className='price'></h4></Col>
+    <Col sm={2} ></Col>
   </Row>
   </div>
 
