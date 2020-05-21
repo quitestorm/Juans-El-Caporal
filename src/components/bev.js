@@ -1,38 +1,92 @@
 import React, {Component} from 'react';
-import {TableHeader, DataTable} from 'react-mdl'
-import Carousels from './carousel'
 
+  import './carsouel.css';
+import './table.css' ;
+import {Container, Row, Col, } from 'react-bootstrap'
+
+ 
 class Bev extends Component{
     render() {
         return(
             <div>
 <h1>BEVERAGES</h1>
 
-<Carousels />
+<Container className='ccontainer'>
+<div className='topDiv'>
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' >Soft Drinks</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Pepsi, Diet Pepsi, Toot Beer, Dr. Pepper, Lemonade, Mountian Dew, Sierra Mist</h4></Col>
+    <Col sm={2} ><h4 className='price'>$2.75 / To Go $2.65</h4></Col>
+  </Row>
+  </div></div>
+  <div className='name'>
+<Row>
+    <Col sm={2} ></Col>
+    <Col sm={8} ><h4 className='descript'>Strawberry Lemonaide</h4></Col>
+    <Col sm={2} ><h4 className='price'>$3.20</h4></Col>
+  </Row>
+  </div>
 
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Juice ----(No Refills)</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Orange, Pineapple, Cranberry, Apple </h4></Col>
+    <Col sm={2} ><h4 className='price'>$2.95</h4></Col>
+  </Row>
+  </div>
 
+  <div className='name'>
+<Row>
+    <Col sm={2} ></Col>
+    <Col sm={8} ><h4 className='descript'>Coffee</h4></Col>
+    <Col sm={2} ><h4 className='price'>$2.75</h4></Col>
+  </Row>
+  </div>
 
-<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'red'}}
-    shadow={0}
-    rows={[
-     
+  <div className='name'>
+<Row>
+    <Col sm={2} ></Col>
+    <Col sm={8} ><h4 className='descript'>Fresh Brewed Iced Tea</h4></Col>
+    <Col sm={2} ><h4 className='price'>$2.75</h4></Col>
+  </Row>
+  </div>
 
-        
-        {name: 'Super Nachos', description:'Corn tortilia chips with choice of meat(chicken, beef, or shreded beef), beans,melted cheese, chopped tomatoes, onion, guaclomole`, and sour cream', price:  6.95},
-        {name: 'Chicken Taquitos', description: 'Corn tortilia stuffed with chicken and cheese ', price: 6.95},
-        {name: 'Mexican Quesadilo', description: 'Two soft flour tortilias stuffed with cheddar and monteray jack cheese, green onions, tomatoes, and your choiceoc chicken, beef, or shrdded beef', price: 6.95},
-        {name: 'Vegetarian Nacho', description:'good', price: 2.90},
-        {name: 'Plywood (Birch)', description: 50, price: 1.25},
-        {name: 'Laminate (Gold on Blue)', description: 10, price: 2.35}
-    ]}
->
+  <div className='name'>
+<Row>
+    <Col sm={2} ></Col>
+    <Col sm={8} ><h4 className='descript'>Shirley Temple, or Roy Rodgers</h4></Col>
+    <Col sm={2} ><h4 className='price'>$3.10</h4></Col>
+  </Row>
+  </div>
 
-    <TableHeader name="name" tooltip="The amazing material name">Name</TableHeader>
-    <TableHeader name="description" tooltip="The amazing material description">Description</TableHeader>
-    <TableHeader numeric name="price" cellFormatter={(price) => `$${price.toFixed(2)}`} tooltip="Price pet unit">Price</TableHeader>
-</DataTable>
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'>Jarritos -- (No Refills)</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Strawberry, Mandarin, Lime, Tamarindo</h4></Col>
+    <Col sm={2} ><h4 className='price'>$3.20</h4></Col>
+  </Row>
+  </div>
 
-            </div>
+  <div className='name'>
+<Row>
+    <Col sm={2} ></Col>
+    <Col sm={8} ><h4 className='descript'>Mexican coca cola </h4></Col>
+    <Col sm={2} ><h4 className='price'>$2.60</h4></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ></Col>
+    <Col sm={8} ><h4 className='descript'>Milk, Hot Chocolate (No Refills)</h4></Col>
+    <Col sm={2} ><h4 className='price'>$2.70</h4></Col>
+  </Row>
+  </div>
+ 
+</Container>
+
+</div>
         )
     }
 }

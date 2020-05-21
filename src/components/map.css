@@ -1,6 +1,24 @@
 .MapContainer{
-    height:33rem ;
+    
     border:1em solid cyan;
-    width: auto
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+#col3 {
+    height: 36em;
+    color: #ff0000;
+    background-color: rgb(250, 246, 8);
+    font-style: italic;
+    border: 2em solid lime;
+  }
+  
+  @media only screen and (min-width: 280px) {
+    .map {
+      min-width: 75%!important;
+    }
+  }

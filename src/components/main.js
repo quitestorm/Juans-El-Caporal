@@ -19,9 +19,9 @@ import Seafood from './seafood';
 import Sides from './sides';
 import Soup from './soup';
 import Toast from './toast';
-
-
-
+import Carnes from './carnes';
+import Ninos from './ninos';
+import Mex from './mex';
 
 
 
@@ -45,8 +45,11 @@ const Main = () => (
 <Route  path = '/bev' component = {Bev}/>
 <Route  path = '/break' component = {Break}/>
 <Route  path = '/burritos' component = {Burritos}/>
+<Route path = '/carnes' component = {Carnes}/>
 <Route  path = '/combos' component = {Combos}/>
 <Route  path = '/dess' component = {Dess}/>
+<Route path = '/mex' component = {Mex}/>
+<Route path = '/ninos' component = {Ninos}/>
 <Route  path = '/pollo' component = {Pollo}/>
 <Route  path = '/salad' component = {Salad}/>
 <Route  path = '/seafood' component = {Seafood}/>

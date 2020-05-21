@@ -2,26 +2,37 @@ import React, {Component} from 'react';
 import { Map, GoogleApiWrapper, Marker } from 'google-maps-react';
 import './map.css'
 
+
+
+
+
 class MapContainer extends Component{
     render() {
         const mapStyles = {
-            width: '91%',
+            width: '75%',
             height: '50%',
           
           }
+
+          
       
         return(
             <div>
               <div className='MapContainer'>
-     <Map className='Map'
+     <Map className='map'
           google={this.props.google}
-          zoom={5}
+          zoom={15}
           style={mapStyles}
-          initialZoom={{ lat: 42.516780, lng: -122.811780}}
+          icon={{url:'/JUANS.png'}} 
+          
+          initialCenter={{ lat: 42.516780, lng: -122.811780}}
+         
         >
           <Marker  position={{ lat: 42.516780, lng: -122.811780}} />
         </Map>
-            </div>
+            </div> 
+
+            
             </div>
         )
     }
@@ -29,6 +40,6 @@ class MapContainer extends Component{
 
 
 export default GoogleApiWrapper({
-    apiKey: "AIzaSyDDOlwmM7gtOa4N4JVjpWK4k6ZaySk7hH0 "
+    apiKey: "AIzaSyBRDcwPV7OjrzvQKCKbop2SZsdUc0DMWXQ"
   })(MapContainer);
 

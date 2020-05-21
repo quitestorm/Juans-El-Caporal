@@ -1,6 +1,12 @@
 import React, { Component } from 'react';
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
+
+import './carsouel.css';
+
+
+
+
+
 // import {
 //   Carousel,
 //   CarouselItem,
@@ -9,7 +15,7 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 //   CarouselCaption
 // } from 'reactstrap';
 
-//import {Carousel, CarouselCaption} from 'react-bootstrap';
+import {Carousel, CarouselCaption} from 'react-bootstrap';
 
 
 // const items = [
@@ -124,63 +130,6 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 // }
 
 
-// export default Carousels;
-
-
-
-// class Carsoules extends Component{
-//   render() {
-//       return(
-//           <div>
-
-
-// <Carousel>
-//   <Carousel.Item>
-//     <img
-//       className="d-block w-100 " className='imgs'
-//       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vEIaKzBNA4AZxIwy24tkYPdD4xZ2dqdApVZA8KYFP8yQpXOR"
-//       alt="First slide"
-//     />
-//     <Carousel.Caption>
-//       <h3 className='caption' >First slide label</h3>
-   
-//     </Carousel.Caption>
-//   </Carousel.Item>
-//   <Carousel.Item>
-//     <img
-//       className="d-block w-100"className='imgs'
-//       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjd67JsHW59ZD05XJfLyqIA6Xazov8N5ukBgWCe027rF0XU-5-AA"
-//       alt="Third slide"
-//     />
-
-//     <Carousel.Caption>
-//       <h3 className='caption'>Second slide label</h3>
-     
-//     </Carousel.Caption>
-//   </Carousel.Item>
-//   <Carousel.Item>
-//     <img
-//       className="d-block w-100"className='imgs'
-//       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFo-JBqsy0HYEOeIsjwNQ32qPspRqonEMf2yqdIJXJn5vj7Q1D"
-//       alt="Third slide"
-//     />
-
-//     <Carousel.Caption>
-//       <h3 className='caption'>Third slide label</h3>
-     
-//     </Carousel.Caption>
-//   </Carousel.Item>
-// </Carousel>
-
-
-//           </div>
-//       )
-//   }
-// }
-
-
-// export default  Carsoules;
-
 
 
 
@@ -191,6 +140,45 @@ class Carsoules extends Component{
           <div>
 
 
+<Carousel>
+  <Carousel.Item>
+    <img
+      className="d-block w-100 " className='imgs'
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_vEIaKzBNA4AZxIwy24tkYPdD4xZ2dqdApVZA8KYFP8yQpXOR"
+      alt="First slide"
+    />
+    <Carousel.Caption>
+      <h3 className='caption' >First slide label</h3>
+   
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"className='imgs'
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjd67JsHW59ZD05XJfLyqIA6Xazov8N5ukBgWCe027rF0XU-5-AA"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3 className='caption'>Second slide label</h3>
+     
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"className='imgs'
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFo-JBqsy0HYEOeIsjwNQ32qPspRqonEMf2yqdIJXJn5vj7Q1D"
+      alt="Third slide"
+    />
+
+    <Carousel.Caption>
+      <h3 className='caption'>Third slide label</h3>
+     
+    </Carousel.Caption>
+  </Carousel.Item>
+</Carousel>
+
+
           </div>
       )
   }
@@ -198,3 +186,7 @@ class Carsoules extends Component{
 
 
 export default  Carsoules;
+
+
+
+

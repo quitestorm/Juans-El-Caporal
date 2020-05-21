@@ -1,36 +1,88 @@
 import React, {Component} from 'react';
-import {TableHeader, DataTable} from 'react-mdl'
-import Carousels from './carousel'
+
+
+ 
+import './table.css' ;
+import {Container, Row, Col, } from 'react-bootstrap'
+
+ 
 
 class Bar extends Component{
     render() {
         return(
             <div>
 <h1>BAR</h1>
-
-<Carousels />
-
-
-
-<DataTable style={{backgroundColor:'lightgreen',  fontSize:14.5, color: 'red'}}
-    shadow={0}
-    rows={[
-     
-
+<Container className='ccontainer'>
+<div className='topDiv'>
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' >WINE</h4></Col>
+    <Col sm={8} ><h4 className='descript'><ul> 
+        <li><h4>White Zinfandel</h4></li>
+        <li><h4>Chardonay</h4></li>
+        <li><h4>Merlot</h4></li>
+        </ul></h4></Col>
+    <Col sm={2} ></Col>
+  </Row>
+  </div></div>
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name'  style={{fontSize:19}}>COCTAILS</h4></Col>
+    <Col sm={8} ><h4 className='descript'><ul>
+        <li><h4>Margaritas</h4></li>
+        <li><h4>Pina Colada</h4></li>
+        <li><h4>Tequlia Sunrise</h4></li>
+        <li><h4>Long Island Iced Tea</h4></li>
+        <li style={{fontSize:19}}>Loco-- 4rums, Orange,Pineapple Juice & Splash of Grenadine</li>
         
-        {name: 'Super Nachos', description:'Corn tortilia chips with choice of meat(chicken, beef, or shreded beef), beans,melted cheese, chopped tomatoes, onion, guaclomole`, and sour cream', price:  6.95},
-        {name: 'Chicken Taquitos', description: 'Corn tortilia stuffed with chicken and cheese ', price: 6.95},
-        {name: 'Mexican Quesadilo', description: 'Two soft flour tortilias stuffed with cheddar and monteray jack cheese, green onions, tomatoes, and your choiceoc chicken, beef, or shrdded beef', price: 6.95},
-        {name: 'Vegetarian Nacho', description:'good', price: 2.90},
-        {name: 'Plywood (Birch)', description: 50, price: 1.25},
-        {name: 'Laminate (Gold on Blue)', description: 10, price: 2.35}
-    ]}
->
+        </ul></h4></Col>
+    <Col sm={2} ></Col>
+  </Row>
+  </div>
 
-    <TableHeader name="name" tooltip="The amazing material name">Name</TableHeader>
-    <TableHeader name="description" tooltip="The amazing material description">Description</TableHeader>
-    <TableHeader numeric name="price" cellFormatter={(price) => `$${price.toFixed(2)}`} tooltip="Price pet unit">Price</TableHeader>
-</DataTable>
+  <div className='name'>
+<Row>
+    <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Cervezas</h4></Col>
+    <Col sm={8} ><h4 className='descript'>IMPORTS:  <ul>
+        <li><h4>Corona</h4></li>
+        <li><h4> Corona Light</h4></li>
+        <li><h4> Dos XX Amber on Tap</h4></li>
+        <li><h4> Pacifico on Tap </h4></li>
+        <li><h4> Tecate</h4></li>
+        <li><h4> Modelo Especial</h4></li>
+        <li><h4> Negra Modelo</h4></li>
+        </ul>
+        </h4></Col>
+    <Col sm={2} ></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ></Col>
+    <Col sm={8} ><h4 className='descript'>DOMESTIC:  
+    <ul>
+        <li><h4>Bud Light</h4></li>
+        <li><h4>Budwiser on Tap</h4></li>
+        <li><h4>Coors Light on Tap</h4></li>
+        <li><h4>Michelob Ultra</h4></li>
+        </ul>
+        </h4></Col>
+    <Col sm={2} ></Col>
+  </Row>
+  </div>
+
+  <div className='name'>
+<Row>
+    <Col sm={2} ></Col>
+    <Col sm={8} ><h4 className='descript'>NON_ALCOHOLIC
+    <ul><li><h4>O'Doul's</h4></li></ul></h4></Col>
+    <Col sm={2} ></Col>
+  </Row>
+  </div>
+
+ 
+</Container>
 
             </div>
         )

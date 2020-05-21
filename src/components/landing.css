@@ -1,0 +1,28 @@
+
+
+.Juans {
+  background-color: chartreuse;
+  font-family: "Lobster", cursive;
+  border: 1em solid rgb(243, 247, 6)!important;
+}
+
+.demo-grid-3 {
+  font-family: "Lobster", cursive !important;
+  color: rgb(56, 255, 6);
+  border-radius: 50%;
+}
+
+
+
+.grid-3 {
+  font-family: "Lobster", cursive !important;
+  color: rgb(253, 6, 179);
+  background-color: rgb(140, 245, 3);
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
