@@ -190,7 +190,7 @@ class Burritos extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name'>Fajita Burrito</h4></Col>
-    <Col sm={8} ><h4 className='descript'>CFilled with your choice of steak or chicken , Mexican rice, refried beans, fried onions and bell peppers.  Topped with pico de gallo, sour cream and guacamole</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Filled with your choice of steak or chicken , Mexican rice, refried beans, fried onions and bell peppers.  Topped with pico de gallo, sour cream and guacamole</h4></Col>
     <Col sm={2} ><h4 className='price'>$12.25</h4></Col>
   </Row>
   </div>
@@ -206,7 +206,7 @@ class Burritos extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name'>Expresso Burrito</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Filled with your choice of steak or chicken , lMexican rice, refried beans, fried onions and bell peppers.  Topped with pico de gallo, sour cream and guacamole</h4></Col>
+    <Col sm={8} ><h4 className='descript'>Filled with your choice of steak or chicken , Mexican rice, refried beans, fried onions and bell peppers.  Topped with pico de gallo, sour cream and guacamole</h4></Col>
     <Col sm={2} ><h4 className='price'>$10.30</h4></Col>
   </Row>
   </div>
@@ -214,7 +214,7 @@ class Burritos extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name'>Azda Burrito</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Asoft flour tortilla stuffed with thin sliced steak, beans, rice, onionas and tomatoes, Then brushed with guacamole, and sour cream</h4></Col>
+    <Col sm={8} ><h4 className='descript'>A soft flour tortilla stuffed with thin sliced steak, beans, rice, onionas and tomatoes, Then brushed with guacamole, and sour cream</h4></Col>
     <Col sm={2} ><h4 className='price'>$12.25</h4></Col>
   </Row>
   </div>
@@ -222,7 +222,7 @@ class Burritos extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name'style={{fontSize: 19}}>Vegetarian Burrito</h4></Col>
-    <Col sm={8} ><h4 className='descript'>A soft flour tortilla stuffed with rice, wholepinto beans, streamed oniond, bell peppers, and mushrooms</h4></Col>
+    <Col sm={8} ><h4 className='descript'>A soft flour tortilla stuffed with rice, whole pinto beans, streamed oniond, bell peppers, and mushrooms</h4></Col>
     <Col sm={2} ><h4 className='price'>$8.65</h4></Col>
   </Row>
   </div>
@@ -230,7 +230,7 @@ class Burritos extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name'>Super Burrito</h4></Col>
-    <Col sm={8} ><h4 className='descript'>A soft flour tortilla surffed with choice of meat. lTopped with lettuce, onions, tomatoes, sour creamm, guacamole, and burrito sauce</h4></Col>
+    <Col sm={8} ><h4 className='descript'>A soft flour tortilla surffed with choice of meat. Topped with lettuce, onions, tomatoes, sour creamm, guacamole, and burrito sauce</h4></Col>
     <Col sm={2} ><h4 className='price'>$11.30</h4></Col>
   </Row>
   </div>

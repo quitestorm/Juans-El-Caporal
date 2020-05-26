@@ -91,7 +91,7 @@ class Dess extends Component{
   <div className='name'>
 <Row>
     <Col sm={2} ><h4 className='name' style={{fontSize:19}}>Deep Fried Ice Cream</h4></Col>
-    <Col sm={8} ><h4 className='descript'>Ascoop of ice ream frozen hard then rolled in cereal crummbs and apped in the deep fryer.  Served in a flour tortilla bowl and topped with strawberry sauce and whipped cream</h4></Col>
+    <Col sm={8} ><h4 className='descript'>A scoop of ice ream frozen hard then rolled in cereal crummbs and apped in the deep fryer.  Served in a flour tortilla bowl and topped with strawberry sauce and whipped cream</h4></Col>
     <Col sm={2} ><h4 className='price'>$4.65</h4></Col>
   </Row>
   </div>
