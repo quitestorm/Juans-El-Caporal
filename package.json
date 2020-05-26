@@ -1,43 +1,46 @@
 {
+  "homepage": "https://quitestorm.github.io/Juans-El-Caporal",
   "name": "reactport",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@devexpress/dx-grid-core": "^2.0.5",
-    "@devexpress/dx-react-core": "^2.0.5",
-    "@devexpress/dx-react-grid": "^2.0.5",
-    "@devexpress/dx-react-grid-bootstrap3": "^2.0.5",
-    "@devexpress/dx-react-grid-bootstrap4": "^2.0.5",
-    "@react-google-maps/api": "^1.7.6",
-    "bootstrap": "^4.3.1",
+    "@devexpress/dx-grid-core": "^2.6.3",
+    "@devexpress/dx-react-core": "^2.6.3",
+    "@devexpress/dx-react-grid": "^2.6.3",
+    "@devexpress/dx-react-grid-bootstrap3": "^2.6.3",
+    "@devexpress/dx-react-grid-bootstrap4": "^2.6.3",
+    "@react-google-maps/api": "^1.9.2",
+    "bootstrap": "^4.5.0",
     "classnames": "^2.2.6",
-    "google-map-react": "^1.1.5",
-    "google-maps-react": "^2.0.2",
-    "mdbreact": "^4.21.0",
+    "google-map-react": "^1.1.7",
+    "google-maps-react": "^2.0.6",
+    "mdbreact": "^4.27.0",
     "object-assign": "^4.1.1",
     "prop-types": "^15.7.2",
-    "pure-react-carousel": "^1.22.0",
-    "react": "^16.9.0",
-    "react-bootstrap": "^1.0.0-beta.14",
+    "pure-react-carousel": "^1.27.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-browser-router": "^2.1.2",
     "react-data-grid": "^6.1.0",
     "react-data-grid-addons": "^6.1.0",
-    "react-dom": "^16.9.0",
+    "react-dom": "^16.13.1",
     "react-google-maps": "^9.4.5",
     "react-grid-system": "^5.0.2",
     "react-is-deprecated": "^0.1.2",
     "react-mdl": "^1.11.0",
     "react-onscroll": "^1.0.4",
-    "react-router-dom": "^5.0.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.1.2",
-    "reactstrap": "^8.0.1",
-    "semantic-ui-react": "^0.88.1"
+    "reactstrap": "^8.4.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -53,5 +56,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quitestorm/Juans-El-Caporal.git"
+  },
+  "author": "rena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quitestorm/Juans-El-Caporal/issues"
   }
 }
