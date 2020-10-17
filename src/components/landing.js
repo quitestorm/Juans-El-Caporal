@@ -37,8 +37,8 @@ class Landing extends Component{
         </div>
 <div  className='responsive hours'>
     <h4>Hours:<br></br>
-        Sun - Thur --> 11am - 9pm<br></br>
-        Fri - Sat --> 11am - 10pm
+        Sun - Thur --{">"} 11am - 9pm<br></br>
+        Fri - Sat --{">"} 11am - 10pm
     </h4>
 
 
