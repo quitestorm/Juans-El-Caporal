@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Juans-El-Caporal/precache-manifest.dce851aff83f40239fd26b86b999eb93.js"
+  "/Juans-El-Caporal/precache-manifest.4f19580215ca4448bc89d963ad0e538e.js"
 );
 
 self.addEventListener('message', (event) => {

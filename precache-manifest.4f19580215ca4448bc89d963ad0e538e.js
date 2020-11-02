@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a4c4b5822ab70bb3c1abb92f33c1d10c",
+    "revision": "dec8722e6775d02ee63783326d03708e",
     "url": "/Juans-El-Caporal/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Juans-El-Caporal/static/css/2.38eed453.chunk.css"
   },
   {
-    "revision": "21fc1af4edfcc30abdc3",
+    "revision": "82d9fdb204ec9c8bb2e6",
     "url": "/Juans-El-Caporal/static/css/main.10a61be1.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Juans-El-Caporal/static/js/2.d4d97300.chunk.js"
   },
   {
-    "revision": "21fc1af4edfcc30abdc3",
-    "url": "/Juans-El-Caporal/static/js/main.e539142d.chunk.js"
+    "revision": "82d9fdb204ec9c8bb2e6",
+    "url": "/Juans-El-Caporal/static/js/main.71f02e15.chunk.js"
   },
   {
     "revision": "a74e4767b97486d34b62",
