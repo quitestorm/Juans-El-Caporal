@@ -3,6 +3,7 @@
   "name": "reactport",
   "version": "0.1.0",
   "private": true,
+  
   "dependencies": {
     "@devexpress/dx-grid-core": "^2.6.3",
     "@devexpress/dx-react-core": "^2.6.3",
@@ -66,7 +67,7 @@
     "type": "git",
     "url": "git+https://github.com/quitestorm/Juans-El-Caporal.git"
   },
-  "author": "rena",
+  "author": "Rena`",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/quitestorm/Juans-El-Caporal/issues"
