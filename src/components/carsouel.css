@@ -23,8 +23,8 @@
 }
 
 .carselPic{
- height: auto;
- width: 20em;
+ height: 225px;
+ width: auto;
 border: 1rem solid rgb(243, 4, 16);
 border-radius: 20%;
 margin-left: 15em;
