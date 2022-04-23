@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl'
 import JUANS from './JUANS.png'
+import mex from "./mexican.jpg"
 import juanspho from './juanspho.png'
 import './landing.css';
 
@@ -23,8 +24,11 @@ class Landing extends Component{
 
 <img className='responsive'alt='juans' src={JUANS}></img><img className='responsive' alt='5418264360' src={ juanspho}></img>
 
-<Grid className="demo-grid-1">
-        <Cell col={12} id='col1'></Cell>
+<Grid className="demo-grid-1 mexi">
+        <Cell col={12} id='col1' >
+
+        {/* <img className='responsive'alt='juans' src={mex}></img> */}
+        </Cell>
 </Grid>
      
 

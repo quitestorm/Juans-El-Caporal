@@ -1,5 +1,8 @@
-
-
+.mexi{
+background-image: url(./mexican.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
 .Juans {
   background-color: chartreuse;
   font-family: "Lobster", cursive;
