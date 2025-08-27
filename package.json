@@ -29,7 +29,7 @@
     "react-mdl": "^1.11.0",
     "react-onscroll": "^1.0.4",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.1.2",
+    "react-scripts": "5.0.1",
     "reactstrap": "^8.7.1",
     "semantic-ui-react": "^0.88.2"
   },
